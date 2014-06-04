@@ -1,0 +1,36 @@
+body {
+ background: url(bg_saoud2.jpg) no-repeat;
+ background-color: white;
+ margin-top: 150px;
+}
+
+.barre1 {
+	background-color: #177D06;
+	height: 20px;
+}
+
+.barre2 {
+	background-color: #E8E70C;
+	height: 20px;
+	margin-top: 300px;
+}
+
+.btn-start {
+	font-size: 30px;
+	margin-top: 450px;
+	margin-left: 280px;
+}
+
+
+#ibn-saoud, #khaled, #faycal, #fahd, #mouqrin, #salman, #abdallah {
+	display: none;
+}
+
+.is-bis, .khaled-bis, .faycal-bis, .fahd-bis, .mouqrin-bis, .salman-bis, .abdallah-bis {
+	display: none;
+}
+
+.is-bis {
+	margin-left: 280px;
+	margin-top: 0px;
+}

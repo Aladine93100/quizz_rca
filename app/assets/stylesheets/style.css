@@ -1,7 +1,14 @@
 body {
- background: url(bg_saoud2.jpg) no-repeat;
- background-color: white;
- margin-top: 150px;
+  margin:0;
+  padding:0;
+  background: url(bg_saoud2.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour Chrome et Safari */
+  -moz-background-size: cover; /* pour Firefox */
+  -o-background-size: cover; /* pour Opera */
+  background-size: cover; /* version standardisée */
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: white;
 }
 
 .barre1 {
@@ -21,6 +28,10 @@ body {
 	margin-left: 280px;
 }
 
+.btn-wahab {
+	display: none;
+	float: right;
+}
 
 #ibn-saoud, #khaled, #faycal, #fahd, #mouqrin, #salman, #abdallah {
 	display: none;
@@ -28,9 +39,26 @@ body {
 
 .is-bis, .khaled-bis, .faycal-bis, .fahd-bis, .mouqrin-bis, .salman-bis, .abdallah-bis {
 	display: none;
-}
-
-.is-bis {
 	margin-left: 280px;
 	margin-top: 0px;
+}
+
+/* quizz */
+
+.media {
+	display: none;
+}
+
+.quest1 {
+    display: none;
+  }
+.rep1 {
+  display: none;
+}
+#rep1 {
+   font-weight: bold;
+   background-color: #fcd;
+}
+.start1 {
+	display: none;
 }

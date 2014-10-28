@@ -1,64 +1,147 @@
 body {
   margin:0;
   padding:0;
-  background: url(bg_saoud2.jpg) no-repeat center fixed; 
+  background: url(BG_QUIZZ.jpg) no-repeat center fixed; 
   -webkit-background-size: cover; /* pour Chrome et Safari */
   -moz-background-size: cover; /* pour Firefox */
   -o-background-size: cover; /* pour Opera */
   background-size: cover; /* version standardisée */
   margin-right: 50px;
   margin-left: 50px;
-  background-color: white;
-}
-
-.barre1 {
-	background-color: #177D06;
-	height: 20px;
-}
-
-.barre2 {
-	background-color: #E8E70C;
-	height: 20px;
-	margin-top: 300px;
+  background-color: #7770B0;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .btn-start {
 	font-size: 30px;
 	margin-top: 450px;
-	margin-left: 280px;
+	margin-left: 340px;
 }
 
-.btn-wahab {
+.question1, .question2, .question2-bis, .question3, .question4, .question5, .question6 {
 	display: none;
-	float: right;
+	margin-top: 222px;
+	margin-left: 65px;
+	background-color: rgb(0,0,0);
+	border: solid white;
+	color: white;
 }
 
-#ibn-saoud, #khaled, #faycal, #fahd, #mouqrin, #salman, #abdallah {
+.temoignage {
 	display: none;
+	margin-top: 100px;
+	margin-left: 65px;
+	background-color: rgb(0,0,0);
+	color: white;
 }
 
-.is-bis, .khaled-bis, .faycal-bis, .fahd-bis, .mouqrin-bis, .salman-bis, .abdallah-bis {
+.vrai1 {
+	margin-top: 70px;
+	margin-right: 100px; 
+	margin-left : 100px;
+	background-color: rgb(0,0,0);
+	color: white;
 	display: none;
-	margin-left: 280px;
-	margin-top: 0px;
+	border: solid green;
 }
 
-/* quizz */
-
-.media {
+.faux1 {
+	margin-top: 70px;
+	margin-right: 100px; 
+	margin-left : 100px;
+	background-color: rgb(0,0,0);
+	color: white;
 	display: none;
+	border: solid red;
 }
 
-.quest1 {
-    display: none;
-  }
-.rep1 {
-  display: none;
-}
-#rep1 {
-   font-weight: bold;
-   background-color: #fcd;
-}
-.start1 {
+/*Question 2*/
+
+
+.vrai2 {
+	margin-top: 100px;
+	margin-right: 100px; 
+	margin-left : 100px;
+	background-color: rgb(0,0,0);
+	color: white;
 	display: none;
+	border: solid green;
+}
+
+.faux2 {
+	margin-top: 100px;
+	margin-right: 100px; 
+	margin-left : 100px;
+	background-color: rgb(0,0,0);
+	color: white;
+	display: none;
+	border: solid red;
+}
+
+.vrai2-bis {
+	margin-top: 100px;
+	margin-right: 100px; 
+	margin-left : 100px;
+	background-color: rgb(0,0,0);
+	color: white;
+	display: none;
+	border: solid green;
+
+}
+
+.faux2-bis {
+	margin-top: 100px;
+	margin-right: 100px; 
+	margin-left : 100px;
+	background-color: rgb(0,0,0);
+	color: white;
+	display: none;
+	border: solid red;
+}
+
+
+/*Question 3*/
+
+
+.vrai3 {
+	margin-top: 100px;
+	margin-right: 100px; 
+	margin-left : 100px;
+	background-color: rgb(0,0,0);
+	color: white;
+	display: none;
+	border: solid green;
+}
+
+.faux3 {
+	margin-top: 100px;
+	margin-right: 100px; 
+	margin-left : 100px;
+	background-color: rgb(0,0,0);
+	color: white;
+	display: none;
+	border: solid red;
+}
+
+/*Question 4*/
+
+
+.vrai4 {
+	margin-top: 100px;
+	margin-right: 100px; 
+	margin-left : 100px;
+	background-color: rgb(0,0,0);
+	color: white;
+	display: none;
+	border: solid green;
+}
+
+.faux4 {
+	margin-top: 100px;
+	margin-right: 100px; 
+	margin-left : 100px;
+	background-color: rgb(0,0,0);
+	color: white;
+	display: none;
+	border: solid red;
 }

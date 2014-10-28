@@ -1,136 +1,233 @@
-<div class="btn-wahab">
-  <p><button>Le wahabisme et les Frères Musulmans</button></p>
-</div>
-
-
 <div class="btn-start">
-  <p><button>Commencer l'animation</button></p>
+  <p><button>Commencer le quizz</button></p>
 </div>
 
-<div id="ibn-saoud">
-  <p><button>Le roi Ibn Saoud</button></p>
-</div>
-<div id="faycal">
-  <p><button>Le roi Fayçal</button></p>
+<!-- /*Question 1*/ -->
+
+<div class="panel panel-default question1">
+  <div class="panel-body text-center">
+    <h1>Comment s'appellait le dernier Président de la République Centrafricaine ?</h1>
+    <div class="btn-group">
+      <button type="button" class="btn btn-default reponse-bongo"><h3>Omar Bongo</h3></button>
+      <button type="button" class="btn btn-default reponse-patasse"><h3>Jean-Felix Patassé</h3></button>
+      <button type="button" class="btn btn-default reponse-bozize"><h3>François Bozizé</h3></button>
+    </div>
+  </div>
 </div>
 
-<div class="faycal-bis row text-center">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <%= image_tag "faycal.jpg" %>
-      <div class="caption">
-        <h3>Roi Fayçal</h3>
-        <p></p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+<div class="panel panel-default vrai1">
+  <div class="panel-body">
+    <h2 class="text-center">Bonne réponse !</h2>
+    <div class="media">
+      <a class="pull-left">
+        <%= image_tag "fb.jpg" =%> 
+      </a>
+      <button type="button" class="btn btn-default suivant1">Suivant</button> 
+    </div>
+    <h3>Après une nouvelle série de troubles et malgré l'intervention de la communauté internationale (MINURCA), le 15 mars 2003, le général François Bozizé réussit, avec l'aide de militaires français(deux avions de chasse de l'armée française survolaient Bangui pour filmer les positions des loyalistes pour le compte de Bozizé)[réf. nécessaire] et de miliciens tchadiens (dont une bonne partie va rester avec lui après son installation au pouvoir), un nouveau coup d'État et renverse le président Patassé.</h3>
+  </div>
+</div>
+
+<div class="panel panel-default faux1">
+  <div class="panel-body">
+    <h2 class="text-center">Mauvaise Réponse !</h2>
+    <div class="panel-body">
+      <div class="media">
+        <a class="pull-left">
+          <%= image_tag "fb.jpg" =%> 
+        </a>
+        <button type="button" class="btn btn-default suivant1">Suivant</button> 
+      </div>
+      <h3>Après une nouvelle série de troubles et malgré l'intervention de la communauté internationale (MINURCA), le 15 mars 2003, le général François Bozizé réussit, avec l'aide de militaires français(deux avions de chasse de l'armée française survolaient Bangui pour filmer les positions des loyalistes pour le compte de Bozizé)[réf. nécessaire] et de miliciens tchadiens (dont une bonne partie va rester avec lui après son installation au pouvoir), un nouveau coup d'État et renverse le président Patassé.</h3>
+    </div>
+  </div>
+</div>
+
+  <!-- Question 2 -->
+
+  <div class="panel panel-default question2">
+    <div class="panel-body text-center">
+      <h1>Comment s'appelle le groupe rebel qui a renversé le Président Bozizé :</h1>
+      <div class="btn-group">
+        <button type="button" class="btn btn-default reponse-seleka"><h3>La Seleka</h3></button>
+        <button type="button" class="btn btn-default reponse-ms13"><h3>Le MS 13</h3></button>
+        <button type="button" class="btn btn-default reponse-bozize"><h3> Les Pachtouns </h3></button>
       </div>
     </div>
   </div>
-</div>
 
-<div id="khaled">
-  <p><button>Le roi Khaled</button></p>
-</div>
-<div class="khaled-bis row text-center">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <%= image_tag "faycal2.jpg" %>
-      <div class="caption">
-        <h3>Roi Fayçal</h3>
-        <p>Fayçal est fait roi d’Arabie Saoudite le 2 novembre 1964. À son arrivée au pouvoir, l'Arabie saoudite était largement considérée comme un « empire patriarcal ». Encore au stade féodal, les affaires se traitaient entre chefs de tribus. C’est sous son règne que l’Arabie est passée d’une condition de mosaïque de tribus à celle d’un État fort et centralisé.
-          Le 25 mars 1975, Fayçal reçoit la visite de son jeune neveu, le prince Fayçal ben Moussaid. Âgé alors de vingt-six ans, le jeune homme parvient à entrer dans le palais avec son arme. Conduit devant le roi aux côtés d'une délégation koweïtienne, il attend d'être assez proche de son oncle pour sortir son revolver, et tirer trois balles à bout portant, dont une qui le touche à la tête.</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+  <div class="panel panel-default vrai2">
+    <div class="panel-body">
+      <h2 class="text-center">Bonne réponse !</h2>
+      <div class="media">
+        <a class="pull-left thumbnail">
+          <%= image_tag "seleka-leader.jpg" =%> 
+        </a>
+        <button type="button" class="btn btn-primary suivant2">Suivant</button> 
+      </div>
+      <h3>Le 24 mars 2013, les rebelles de la coalition Seleka s'emparent de Bangui et Bozizé s'enfuit. Michel Djotodia s'auto-proclame président de la République centrafricaine.</h3>
+    </div>
+  </div>
+
+  <div class="panel panel-default faux2">
+    <div class="panel-body">
+      <h2 class="text-center">Mauvaise Réponse !</h2>
+      <div class="media">
+      <a class="pull-left thumbnail">
+        <%= image_tag "seleka-leader.jpg" =%> 
+      </a>
+    </div>
+      <button type="button" class="btn btn-primary suivant2">Suivant</button>
+      <h3>Le 24 mars 2013, les rebelles de la coalition Seleka s'emparent de Bangui et Bozizé s'enfuit. Michel Djotodia s'auto-proclame président de la République centrafricaine.</h3>
+    </div>
+  </div>
+
+  <!-- Question 3 -->
+
+    <div class="panel panel-default question2-bis">
+    <div class="panel-body text-center">
+      <h1>Comment s'appelle l'actuel Président de transition ?</h1>
+      <div class="btn-group">
+        <button type="button" class="btn btn-default reponse-bokassa"><h3>Bokassa</h3></button>
+        <button type="button" class="btn btn-default reponse-catherine"><h3>Catherine Samba-Panza</h3></button>
+        <button type="button" class="btn btn-default reponse-deby"><h3> Idriss Deby-Itno </h3></button>
       </div>
     </div>
   </div>
-</div>
-<div id="fahd">
-  <p><button>Le roi Fahd</button></p>
-</div>
-<div class="fahd-bis row text-center">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <%= image_tag "fahd2.jpg" %>
-      <div class="caption">
-        <h3>Roi Fahd</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+
+  <div class="panel panel-default vrai2-bis">
+    <div class="panel-body">
+      <h2 class="text-center">Bonne réponse !</h2>
+      <div class="media">
+        <a class="pull-left thumbnail">
+          <%= image_tag "samba.jpg" =%> 
+        </a>
+        <button type="button" class="btn btn-primary suivant2-bis">Suivant</button> 
+      </div>
+      <h3>En Janvier 2014, elle est élue par le Conseil national de transition (CNT). Le leader de la Séléka accusé d'avoir laisser-faire les atrocités lors de sa prise de pouvoir en mars 2013 a été écarté. 
+        Sa neutralité. C'est semble-t-il l'une des qualités qui ont séduit les parlementaires centrafricains du CNT. La maire de Bangui n'est affiliée à aucun grand parti politique. On ne lui prête pas de liens particuliers avec l'ancien régime de la Séléka.</h3>
+    </div>
+  </div>
+
+  <div class="panel panel-default faux2-bis">
+    <div class="panel-body">
+      <h2 class="text-center">Mauvaise Réponse !</h2>
+      <div class="media">
+      <a class="pull-left thumbnail">
+        <%= image_tag "samba.jpg" =%> 
+      </a>
+    </div>
+      <button type="button" class="btn btn-primary suivant2-bis">Suivant</button>
+      <h3>En Janvier 2014, elle est élue par le Conseil national de transition (CNT). Le leader de la Séléka accusé d'avoir laisser-faire les atrocités lors de sa prise de pouvoir en mars 2013 a été écarté. 
+        Sa neutralité. C'est semble-t-il l'une des qualités qui ont séduit les parlementaires centrafricains du CNT. La maire de Bangui n'est affiliée à aucun grand parti politique. On ne lui prête pas de liens particuliers avec l'ancien régime de la Séléka.</h3>
+    </div>
+  </div>
+
+
+
+
+  <div class="panel panel-default question3">
+    <div class="panel-body text-center">
+      <h1>Comment s'appellent les réfugiés centrafricains originaires du Tchad ?</h1>
+      <div class="btn-group">
+        <button type="button" class="btn btn-default reponse-retournes"><h3>Les retournés</h3></button>
+        <button type="button" class="btn btn-default reponse-disparus"><h3>Les disparus</h3></button>
+        <button type="button" class="btn btn-default reponse-repartis"><h3>Les repartis</h3></button>
       </div>
     </div>
   </div>
-</div>
 
-<div id="abdallah">
-  <p><button>Le roi Abdallah</button></p>
-</div>
-<div class="abdallah-bis row text-center">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <%= image_tag "abdAllah.jpg" %>
-      <div class="caption">
-        <h3>Roi Abdallah</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+  <div class="panel panel-default vrai3">
+    <div class="panel-body">
+      <h2 class="text-center">Bonne réponse !</h2>
+      <div class="media">
+        <a class="pull-left">
+          <%= image_tag "retournes.jpg" =%> 
+        </a>
+        <button type="button" class="btn btn-primary suivant3">Suivant</button>
+        <button type="button" class="btn btn-primary temoignage3">Témoignage</button> 
+      </div>
+      <h3>Six mois après le début de l’intervention de la force Sangaris en RCA, près de 350.000 personnes ont fui les violences, dont quelque 110.000 ont trouvé refuge au Tchad voisin. 90% de ces réfugiés sont des femmes et des enfants. Au mois de janvier 2014, L'UNICEF dénombrait 250 enfants non accompagnés qui ont fui dans la précipitation. Certains voyant leurs propres parents assassinés sous leurs yeux.</h3>
+    </div>
+  </div>
+
+<div class="panel panel-default temoignage">
+    <div class="panel-body">
+      <h2 class="text-center">Témoignage !</h2>
+      <div class="media">
+        <a class="pull-left thumbnail">
+          <%= image_tag "di_enfant.jpg" =%> 
+        </a>
+        <button type="button" class="btn btn-primary suivant-temoignage">Suivant</button> 
+      </div>
+      <h3>"Sur la route vers l’aéroport de Bangui à bord du véhicule de l’armée tchadienne, nous avons vu des horreurs.Des hommes et femmes démembrés à coup de machette. Je n'oublierai jamais ces images et elles resteront gravées dans ma mémoire. Nous n’avons même pas eu le temps d’apporter avec nous de quoi manger ou nous changer, tout est resté là-bas. A l'aéroport tout le monde voulait fuir et dans la bousculade, plusieurs personnes se sont séparées de leurs enfants. Plusieurs enfants sont arrivés au Tchad sans être accompagnés."
+</h3>
+    </div>
+  </div>
+
+  <div class="panel panel-default faux3">
+    <div class="panel-body">
+      <h2 class="text-center">Mauvaise Réponse !</h2>
+      <div class="media">
+        <a class="pull-left">
+          <%= image_tag "retournes.jpg" =%> 
+        </a>
+        <button type="button" class="btn btn-primary suivant3">Suivant</button> 
+        <button type="button" class="btn btn-primary temoignage3">Témoignage</button> 
+      </div>
+      <h3>Six mois après le début de l’intervention de la force Sangaris en RCA, près de 350.000 personnes ont fui les violences, dont quelque 100.000 ont trouvé refuge au Tchad voisin. 90% de ces réfugiés sont des femmes et des enfants. Au mois de janvier 2014, L'UNICEF dénombrait 250 enfants non accompagnés qui ont fui dans la précipitation. Certains voyant leurs propres parents assassinés sous leurs yeux.</h3>
+    </div>
+  </div>
+
+  <!-- Question 4 -->
+
+  <div class="panel panel-default question4">
+    <div class="panel-body text-center">
+    <h1>Comment est baptisée la force française d'interposition déployée en Centrafrique ?</h1>
+      <div class="btn-group">
+        <button type="button" class="btn btn-default reponse-sangaris"><h3>Sangaris</h3></button>
+        <button type="button" class="btn btn-default reponse-epervier"><h3>Epervier</h3></button>
+        <button type="button" class="btn btn-default reponse-aigle"><h3>Aigle Royal</h3></button>
       </div>
     </div>
   </div>
-</div>
 
-<div id="mouqrin">
-  <p><button>Mouqrin</button></p>
-</div>
-<div class="mouqrin-bis row text-center">
-  <div class="col-sm-10 col-md-7">
-    <div class="thumbnail">
-      <%= image_tag "fahd.jpg" %>
-      <div class="caption">
-        <h3>Mouqrin</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+  <div class="panel panel-default vrai4">
+    <div class="panel-body">
+      <h2 class="text-center">Bonne réponse !</h2>
+      <div class="media">
+        <a class="pull-left thumbnail">
+          <%= image_tag "sangaris.jpg" =%> 
+        </a>
+        <button type="button" class="btn btn-primary suivant4">Suivant</button> 
       </div>
+      <h3> La force Sangaris comptant 1600 hommes s'était déployée le 5 décembre 2013. Au départ prévue pour une période de quatre à six mois, face à la situation sur le terrain on a très vite admis qu'il faudra au moins un an pour pacifier ce pays profondément déchiré. Depuis le 15 septembre 2014, l'ONU a autorisé le déploiement de casques bleus (MINUSCA). Ces forces doivent pacifier le pays afin que puissent se tenir les prochaines élections.</h3>
     </div>
   </div>
-</div>
 
-<div id="salman">
-  <p><button>Salman</button></p>
-</div>
-
-<div class="salman-bis row text-center">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <%= image_tag "faycal.jpg" %>
-      <div class="caption">
-        <h3>Salman</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+  <div class="panel panel-default faux4">
+    <div class="panel-body">
+      <h2 class="text-center">Mauvaise Réponse !</h2>
+      <div class="media">
+        <a class="pull-left thumbnail">
+          <%= image_tag "sangaris.jpg" =%> 
+        </a>
+        <button type="button" class="btn btn-primary suivant4">Suivant</button> 
       </div>
+      <h3> La force Sangaris comptant 1600 hommes s'était déployée le 5 décembre 2013. Au départ prévue pour une période de quatre à six mois, face à la situation sur le terrain on a très vite admis qu'il faudra au moins un an pour pacifier ce pays profondément déchiré. Depuis le 15 septembre 2014, l'ONU a autorisé le déploiement de casques bleus (MINUSCA). Ces forces doivent pacifier le pays afin que puissent se tenir les prochaines élections.</h3>
     </div>
   </div>
-</div>
 
-<div class="is-bis row text-center col-xs-7 col-sm-7 col-md-5 col-lg-7">
-  <div class="thumbnail">
-    <%= image_tag "ibnsaoud.jpg" %>
-    <div class="caption">
-      <h3> Roi Ibn Saoud</h3>
-      <p>C'est le 23 septembre 1932, que Abdelaziz ben Abderrahmane Al Saoud, dit Ibn Séoud, réunit ses conquêtes en un État unique: le royaume d'Arabie saoudite. Les guerres ayant permis l’accession au pouvoir d’Ibn Saoud ont fait 500 000 morts entre 1901 et 1932 ( Laurent Murawiec, « L’Arabie saoudite : un business familial », L’Histoire, no 286,‎ avril 2004, p. 18-19 ).
-
-      À partir de 1938, la prospérité du royaume est liée à l'exploitation du pétrole et fait de cet État l'un des plus puissants du Moyen-Orient. En 1945, le roi Abd al-Aziz conclut avec le président Franklin D. Roosevelt un accord stratégique motivé par la géopolitique du pétrole, qui plaça l'Arabie saoudite dans l'orbite économique et sous la protection militaire américaine, l’Arabie saoudite ayant cédé l’exploitation de ses ressources pétrolières aux États-Unis.</p>
-      <p><a href="#" class="btn btn-primary" role="button"></a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+<!-- 
+  <div class="media">
+    <div class="media-body">
+      <button class="start1">Do it!</button>
+      <span class="quest1">Are you sure? (type 'yes' if you are) </span>
+      <div class="rep1">
+        <form>
+          <input type="text"  value="as;ldkfjalsdf">
+        </form>
+      </div>
+      <p id="rep1" style="display:none;">I'm hidden...</p>
     </div>
-  </div>
-</div>
-</div>
-
-<div class="media">
-  <div class="media-body">
-    <button class="start1">Do it!</button>
-    <span class="quest1">Are you sure? (type 'yes' if you are) </span>
-    <div class="rep1">
-      <form>
-        <input type="text"  value="as;ldkfjalsdf">
-      </form>
-    </div>
-    <p id="rep1" style="display:none;">I'm hidden...</p>
-  </div>
-</div>
+  </div> -->

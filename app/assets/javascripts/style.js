@@ -1,56 +1,105 @@
 $('document').ready(function() {
 
+	/*Départ*/
+
 	$(".btn-start").click(function() {
 		$( ".btn-start" ).hide( "slow" );
-		$( "#ibn-saoud, #faycal, #khaled, #fahd, #abdallah, #mouqrin, #salman, .btn-wahab" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question1").slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
-	$("#ibn-saoud").click(function() {
-		$(".is-bis").slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	/*Question1*/
+
+	$(".reponse-bongo, .reponse-patasse").click(function() {
+		$( ".question1" ).hide( "slow" );
+		$( ".faux1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
-	$("#faycal").click(function() {
-		$(".faycal-bis").slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	$(".reponse-bozize").click(function() {
+		$( ".question1" ).hide( "slow" );
+		$( ".vrai1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
-	$("#khaled").click(function() {
-		$(".khaled-bis").slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	$(".suivant1").click(function() {
+		$( ".vrai1, .faux1" ).hide( "slow" );
+		$( ".question2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
-	$("#fahd").click(function() {
-		$(".fahd-bis").slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	$(".reponse-bokassa, .reponse-deby").click(function() {
+		$( ".question2-bis" ).hide( "slow" );
+		$( ".faux2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
-	$("#abdallah").click(function() {
-		$(".abdallah-bis").slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	$(".reponse-catherine").click(function() {
+		$( ".question2-bis" ).hide( "slow" );
+		$( ".vrai2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
-	$("#mouqrin-saoud").click(function() {
-		$(".mouqrin-bis").slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	$(".suivant2-bis").click(function() {
+		$( ".vrai2-bis, .faux2-bis" ).hide( "slow" );
+		$( ".question3" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
-	$("#salman").click(function() {
-		$(".salman-bis").slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	/*Question2*/
+
+	$(".reponse-pachtoune, .reponse-ms13").click(function() {
+		$( ".question2" ).hide( "slow" );
+		$( ".faux2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
-	$ (".btn-wahab").click(function() {
-		$("#ibn-saoud, #faycal, #khaled, #fahd, #abdallah, #mouqrin, #salman, .is-bis, .khaled-bis, .faycal-bis, .fahd-bis, .mouqrin-bis, .salman-bis, .abdallah-bis").hide("slow");
-		$(".media").slideUp( 300 ).delay( 800 ).fadeIn( 400 );
-
+	$(".reponse-seleka").click(function() {
+		$( ".question2" ).hide( "slow" );
+		$( ".vrai2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
-	function doIt() {
-		$( ".quest1, .rep1" ).show( "slow" );
-	}
-// Can pass in function name
-$( ".start1" ).click( doIt );
+	$(".suivant2").click(function() {
+		$( ".vrai2, .faux2" ).hide( "slow" );
+		$( ".question3" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
 
-$( "form" ).submit(function( event ) {
-	if ( $( "input" ).val() === "yes" ) {
-		$( "#rep1" ).show( 4000, function() {
-			$( this ).text( "Ok, DONE! (now showing)" );
-		});
-	}
-	$( ".quest1, .rep1" ).hide( "fast" );
-});
+	/*Question3*/
+
+	$(".reponse-disparus, .reponse-repartis").click(function() {
+		$( ".question3" ).hide( "slow" );
+		$( ".faux3" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".reponse-retournes").click(function() {
+		$( ".question3" ).hide( "slow" );
+		$( ".vrai3" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".temoignage3").click(function() {
+		$( ".vrai3, .faux3" ).hide( "slow" );
+		$( ".temoignage" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".suivant-temoignage").click(function() {
+		$( ".temoignage" ).hide( "slow" );
+		$( ".question4" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".suivant3").click(function() {
+		$( ".vrai3, .faux3" ).hide( "slow" );
+		$( ".question4" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	/*Question4*/
+
+	$(".reponse-aigle, .reponse-epervier").click(function() {
+		$( ".question4" ).hide( "slow" );
+		$( ".faux4" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".reponse-sangaris").click(function() {
+		$( ".question4" ).hide( "slow" );
+		$( ".vrai4" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".suivant4").click(function() {
+		$( ".vrai4, .faux4" ).hide( "slow" );
+		$( ".question5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+
+
 });

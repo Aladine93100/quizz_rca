@@ -19,6 +19,16 @@ $('document').ready(function() {
 		$( ".vrai1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
+	$(".video1").click(function() {
+		$( ".vrai1, .faux1" ).hide( "slow" );
+		$( ".video-bozize" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".suivant-video1").click(function() {
+		$( ".video-bozize" ).hide( "slow" );
+		$( ".question2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
 	$(".suivant1").click(function() {
 		$( ".vrai1, .faux1" ).hide( "slow" );
 		$( ".question2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
@@ -98,6 +108,16 @@ $('document').ready(function() {
 	$(".suivant4").click(function() {
 		$( ".vrai4, .faux4" ).hide( "slow" );
 		$( ".question5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".video4").click(function() {
+		$( ".vrai4, .faux4" ).hide( "slow" );
+		$( ".video-sangaris" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".suivant-video4").click(function() {
+		$( ".video-sangaris" ).hide( "slow" );
+		$( "" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 

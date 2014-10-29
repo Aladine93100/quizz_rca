@@ -117,8 +117,36 @@ $('document').ready(function() {
 
 	$(".suivant-video4").click(function() {
 		$( ".video-sangaris" ).hide( "slow" );
-		$( "" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
+
+	/*Question5*/
+
+	$(".reponse-1956, .reponse-1962").click(function() {
+		$( ".question5" ).hide( "slow" );
+		$( ".faux5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".reponse-1960").click(function() {
+		$( ".question5" ).hide( "slow" );
+		$( ".vrai5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	// $(".suivant4").click(function() {
+	// 	$( ".vrai4, .faux4" ).hide( "slow" );
+	// 	$( ".question5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	// });
+
+	// $(".video4").click(function() {
+	// 	$( ".vrai4, .faux4" ).hide( "slow" );
+	// 	$( ".video-sangaris" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	// });
+
+	// $(".suivant-video4").click(function() {
+	// 	$( ".video-sangaris" ).hide( "slow" );
+	// 	$( "" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	// });
+
 
 
 

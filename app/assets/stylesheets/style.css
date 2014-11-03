@@ -12,6 +12,12 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.image-home {
+	background: url(home-quizz.png) no-repeat center fixed;
+	padding-bottom: 675px;
+	padding-left: 200px;
+}
+
 .btn-start {
 	font-size: 30px;
 	margin-top: 400px;

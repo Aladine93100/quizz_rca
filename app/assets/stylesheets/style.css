@@ -67,6 +67,10 @@ body {
 	border: solid red;
 }
 
+.suivante-video1 {
+	font-size: 20px;
+}
+
 #texte {
 	font-size: 50px;
 }

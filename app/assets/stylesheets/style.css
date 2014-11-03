@@ -12,6 +12,10 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
+button {
+	font-size: 20px;
+}
+
 .btn-start {
 	font-size: 30px;
 	margin-top: 400px;
@@ -65,10 +69,6 @@ body {
 	color: white;
 	display: none;
 	border: solid red;
-}
-
-.suivante-video1 {
-	font-size: 20px;
 }
 
 #texte {

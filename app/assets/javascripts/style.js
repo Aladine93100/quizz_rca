@@ -3,7 +3,7 @@ $('document').ready(function() {
 	/*Départ*/
 
 	$(".btn-start").click(function() {
-		$( ".btn-start, .intro" ).hide( "slow" );
+		$( ".btn-start, .image-home, .navbar" ).hide( "slow" );
 		$( ".question1").slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 

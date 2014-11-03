@@ -53,8 +53,6 @@ body {
 
 .vrai1 {
 	margin-top: 300px;
-	margin-right: 50px; 
-	margin-left: 50px;
 	background-color: rgb(0,0,0);
 	color: white;
 	display: none;
@@ -63,8 +61,6 @@ body {
 
 .faux1 {
 	margin-top: 300px;
-	margin-right: 50px; 
-	margin-left: 50px;
 	background-color: rgb(0,0,0);
 	color: white;
 	display: none;

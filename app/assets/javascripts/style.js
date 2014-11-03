@@ -4,6 +4,11 @@ $('document').ready(function() {
 
 	$(".btn-start").click(function() {
 		$( ".btn-start, .image-home, .navbar" ).hide( "slow" );
+		$( ".launch, .intro").slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".launch").click(function() {
+		$( ".intro, .launch" ).hide( "slow" );
 		$( ".question1").slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 

@@ -20,9 +20,20 @@ body {
 
 .btn-start {
 	font-size: 30px;
+	margin-left: 400px;
+}
+
+.navbar {
+	background-color: rgba(0,0,0,0);
+}
+
+.launch {
+	display: none;
+	margin-left: 400px;
 }
 
 .intro {
+	display: none;
 	font-size: 20px;
 	font-family: 'Hammersmith One', sans-serif;
 	margin-top: 250px;

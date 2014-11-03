@@ -3,7 +3,7 @@ $('document').ready(function() {
 	/*Départ*/
 
 	$(".btn-start").click(function() {
-		$( ".btn-start" ).hide( "slow" );
+		$( ".btn-start, .intro" ).hide( "slow" );
 		$( ".question1").slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
@@ -130,6 +130,16 @@ $('document').ready(function() {
 	$(".reponse-1960").click(function() {
 		$( ".question5" ).hide( "slow" );
 		$( ".vrai5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".video5").click(function() {
+		$( ".question5, .vrai5, .faux5" ).hide( "slow" );
+		$( ".video-richesse" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".suivant-video5").click(function() {
+		$( ".video-richesse" ).hide( "slow" );
+		$( ".question6" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	// $(".suivant4").click(function() {

@@ -19,7 +19,7 @@ body {
 }
 
 .btn-start {
-	margin-left: 400px;
+	margin-left: 370px;
 }
 
 .navbar {
@@ -29,6 +29,7 @@ body {
 .launch {
 	display: none;
 	margin-left: 270px;
+	margin-top: 250px;
 	color: black;
 }
 

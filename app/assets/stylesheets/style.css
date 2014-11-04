@@ -1,7 +1,7 @@
 body {
   margin:0;
   padding:0;
-  background: url(BG_QUIZZ.png) no-repeat center fixed; 
+  background: url(BG_QUIZZ.jpg) no-repeat center fixed; 
   -webkit-background-size: cover; /* pour Chrome et Safari */
   -moz-background-size: cover; /* pour Firefox */
   -o-background-size: cover; /* pour Opera */
@@ -13,7 +13,7 @@ body {
 }
 
 .image-home {
-	background: url(home-quizz.png) no-repeat center fixed;
+	background: url(home-quizz.jpg) no-repeat center fixed;
 	padding-bottom: 975px;
 	padding-left: 500px;
 }

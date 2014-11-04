@@ -18,6 +18,11 @@ body {
 	padding-left: 500px;
 }
 
+.end {
+	display: none;
+
+}
+
 .btn-start {
 	margin-left: 370px;
 }

@@ -144,8 +144,14 @@ $('document').ready(function() {
 
 	$(".suivant-video5").click(function() {
 		$( ".video-richesse" ).hide( "slow" );
-		$( ".question6" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".end" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
+
+	$(".suivant5").click(function() {
+		$( ".question5" ).hide( "slow" );
+		$( ".end" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
 
 	// $(".suivant4").click(function() {
 	// 	$( ".vrai4, .faux4" ).hide( "slow" );

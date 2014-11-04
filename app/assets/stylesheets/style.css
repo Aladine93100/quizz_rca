@@ -19,7 +19,6 @@ body {
 }
 
 .btn-start {
-	font-size: 30px;
 	margin-left: 400px;
 }
 
@@ -29,7 +28,8 @@ body {
 
 .launch {
 	display: none;
-	margin-left: 400px;
+	margin-left: 200px;
+	color: black;
 }
 
 .intro {

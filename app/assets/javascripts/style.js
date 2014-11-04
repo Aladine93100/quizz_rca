@@ -2,6 +2,12 @@ $('document').ready(function() {
 
 	/*Départ*/
 
+	function animateIt() {
+   $( ".btn-start, .launch" ).slideToggle( "slow", animateIt );
+  }
+ 
+   animateIt();
+
 	$(".btn-start").click(function() {
 		$( ".btn-start, .image-home, .navbar" ).hide( "slow" );
 		$( ".launch, .intro").slideUp( 300 ).delay( 800 ).fadeIn( 400 );

@@ -55,7 +55,7 @@ body {
 
 .temoignage {
 	display: none;
-	margin-top: 300px;
+	margin-top: 250px;
 	margin-left: 65px;
 	background-color: rgb(0,0,0);
 	color: white;
@@ -71,7 +71,7 @@ body {
 }
 
 .vrai1 {
-	margin-top: 300px;
+	margin-top: 250px;
 	background-color: rgb(0,0,0);
 	color: white;
 	display: none;
@@ -79,7 +79,7 @@ body {
 }
 
 .faux1 {
-	margin-top: 300px;
+    margin-top: 250px;
 	background-color: rgb(0,0,0);
 	color: white;
 	display: none;
@@ -94,7 +94,7 @@ body {
 
 
 .vrai2 {
-	margin-top: 300px;
+	margin-top: 250px;
 	background-color: rgb(0,0,0);
 	color: white;
 	display: none;
@@ -102,7 +102,7 @@ body {
 }
 
 .faux2 {
-	margin-top: 300px;
+	margin-top: 250px;
 	background-color: rgb(0,0,0);
 	color: white;
 	display: none;
@@ -110,7 +110,7 @@ body {
 }
 
 .vrai2-bis {
-	margin-top: 300px;
+	margin-top: 250px;
 	background-color: rgb(0,0,0);
 	color: white;
 	display: none;
@@ -119,7 +119,7 @@ body {
 }
 
 .faux2-bis {
-	margin-top: 300px;
+	margin-top: 250px;
 	background-color: rgb(0,0,0);
 	color: white;
 	display: none;
@@ -129,7 +129,7 @@ body {
 /*Question 3*/
 
 .vrai3 {
-	margin-top: 300px;
+	margin-top: 250px;
 	background-color: rgb(0,0,0);
 	color: white;
 	display: none;
@@ -137,7 +137,7 @@ body {
 }
 
 .faux3 {
-	margin-top: 300px;
+	margin-top: 250px;
 	background-color: rgb(0,0,0);
 	color: white;
 	display: none;
@@ -148,7 +148,7 @@ body {
 
 
 .vrai4 {
-	margin-top: 300px;
+	margin-top: 250px;
 	background-color: rgb(0,0,0);
 	color: white;
 	display: none;
@@ -156,7 +156,7 @@ body {
 }
 
 .faux4 {
-	margin-top: 300px;
+	margin-top: 250px;
 	background-color: rgb(0,0,0);
 	color: white;
 	display: none;
@@ -165,7 +165,7 @@ body {
 
 .video-sangaris {
 	display: none;
-	margin-top: 440px;
+	margin-top: 360px;
 	background-color: rgb(0,0,0);
 	color: white;
 }
@@ -173,7 +173,7 @@ body {
 /* Question 5*/
 
 .vrai5 {
-	margin-top: 300px;
+	margin-top: 250px;
 	background-color: rgb(0,0,0);
 	color: white;
 	display: none;
@@ -181,7 +181,7 @@ body {
 }
 
 .faux5 {
-	margin-top: 300px;
+	margin-top: 250px;
 	background-color: rgb(0,0,0);
 	color: white;
 	display: none;
@@ -190,7 +190,7 @@ body {
 
 .video-richesse {
 	display: none;
-	margin-top: 300px;
+	margin-top: 270px;
 	background-color: rgb(0,0,0);
 	color: white;
 }

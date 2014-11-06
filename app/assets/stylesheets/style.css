@@ -15,6 +15,7 @@ body {
 .image-home {
 	background: url(home-quizz.jpg) no-repeat center fixed;
 	padding-bottom: 975px;
+	padding-left: 500px;
 }
 
 .end {

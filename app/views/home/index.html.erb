@@ -312,9 +312,36 @@
               <div class="panel-body">
                 <h1 class="text-center">Bonne Réponse !</h1>
                 <div class="media">
-                  <a class="pull-left thumbnail">
-                    <%= image_tag "" =%> 
-                  </a>
+                  <div class="row">
+                <div class="col-sm-12 col-md-12">
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="item">
+                        <%= image_tag 'colonie.jpg' %>
+                      </div>
+                      <div class="item active">
+                        <%= image_tag 'retournes.jpg' %>
+                      </div>
+                      <div class="item">
+                        <%= image_tag 'carte.jpg' %>
+                        <div class="container">
+                          <div class="carousel-caption">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                  </div>
+                </div>
+              </div>
+
                   <button type="button" class="btn btn-primary suivant5"><h1>Suivant</h1></button> 
                   <button type="button" class="btn btn-primary video5"><h1>Vidéo</h1></button> 
                 </div>

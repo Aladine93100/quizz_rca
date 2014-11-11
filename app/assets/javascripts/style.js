@@ -39,7 +39,7 @@ $('document').ready(function() {
 		$( ".question2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
-	$(".reponse-chretien, .reponse-anemiste").click(function() {
+	$(".reponse-chretien, .reponse-animiste").click(function() {
 		$( ".question2-ter" ).hide( "slow" );
 		$( ".faux2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});

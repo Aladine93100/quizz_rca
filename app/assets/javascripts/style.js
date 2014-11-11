@@ -36,6 +36,21 @@ $('document').ready(function() {
 
 	$(".suivant1").click(function() {
 		$( ".vrai1, .faux1" ).hide( "slow" );
+		$( ".question2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".reponse-chretien, .reponse-anemiste").click(function() {
+		$( ".question2-ter" ).hide( "slow" );
+		$( ".faux2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".reponse-muslim").click(function() {
+		$( ".question2-ter" ).hide( "slow" );
+		$( ".vrai2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".suivant2-ter").click(function() {
+		$( ".vrai2-ter, .faux2-ter" ).hide( "slow" );
 		$( ".question2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
@@ -51,8 +66,9 @@ $('document').ready(function() {
 
 	$(".suivant2-bis").click(function() {
 		$( ".vrai2-bis, .faux2-bis" ).hide( "slow" );
-		$( ".question3" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
+
 
 	/*Question2*/
 

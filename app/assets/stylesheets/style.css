@@ -159,7 +159,7 @@ body {
 	margin-top: 150px;
 	margin-left: 65px;
 	background-color: rgba(63,147,232,0.5);
-	color: white;
+	color: black;
 }
 
 .video-bozize {
@@ -168,13 +168,13 @@ body {
 	margin-left: 100px;
 	margin-right: 100px;
 	background-color: rgba(63,147,232,0.5);
-	color: white;
+	color: black;
 }
 
 .vrai1 {
 	margin-top: 150px;
 	background-color: rgba(30,201,0,0.5);
-	color: white;
+	color: black;
 	display: none;
 	border: solid green;
 }
@@ -182,7 +182,7 @@ body {
 .faux1 {
     margin-top: 150px;
 	background-color: rgba(255,0,0,0.5);
-	color: white;
+	color: black;
 	display: none;
 	border: solid red;
 }
@@ -197,7 +197,7 @@ body {
 .vrai2 {
 	margin-top: 150px;
 	background-color: rgba(30,201,0,0.5);
-	color: white;
+	color: black;
 	display: none;
 	border: solid green;
 }
@@ -205,7 +205,7 @@ body {
 .faux2 {
 	margin-top: 150px;
 	background-color: rgba(255,0,0,0.5);
-	color: white;
+	color: black;
 	display: none;
 	border: solid red;
 }
@@ -213,7 +213,7 @@ body {
 .vrai2-bis {
 	margin-top: 150px;
 	background-color: rgba(30,201,0,0.5);	
-	color: white;
+	color: black;
 	display: none;
 	border: solid green;
 
@@ -222,7 +222,7 @@ body {
 .faux2-bis {
 	margin-top: 150px;
 	background-color: rgba(255,0,0,0.5);
-	color: white;
+	color: black;
 	display: none;
 	border: solid red;
 }
@@ -230,7 +230,7 @@ body {
 .vrai2-ter {
 	margin-top: 150px;
 	background-color: rgba(30,201,0,0.5);
-	color: white;
+	color: black;
 	display: none;
 	border: solid green;
 
@@ -239,7 +239,7 @@ body {
 .faux2-ter {
 	margin-top: 150px;
 	background-color: rgba(255,0,0,0.5);
-	color: white;
+	color: black;
 	display: none;
 	border: solid red;
 }
@@ -249,7 +249,7 @@ body {
 .vrai3 {
 	margin-top: 150px;
 	background-color: rgba(30,201,0,0.5);
-	color: white;
+	color: black;
 	display: none;
 	border: solid green;
 }
@@ -257,7 +257,7 @@ body {
 .faux3 {
 	margin-top: 150px;
 	background-color: rgba(255,0,0,0.5);
-	color: white;
+	color: black;
 	display: none;
 	border: solid red;
 }
@@ -268,7 +268,7 @@ body {
 .vrai4 {
 	margin-top: 150px;
 	background-color: rgba(30,201,0,0.5);
-	color: white;
+	color: black;
 	display: none;
 	border: solid green;
 }
@@ -276,7 +276,7 @@ body {
 .faux4 {
 	margin-top: 150px;
 	background-color: rgba(255,0,0,0.5);
-	color: white;
+	color: black;
 	display: none;
 	border: solid red;
 }
@@ -285,7 +285,7 @@ body {
 	display: none;
 	margin-top: 160px;
 	background-color: rgba(63,147,232,0.5);
-	color: white;
+	color: black;
 }
 
 /* Question 5*/
@@ -293,7 +293,7 @@ body {
 .vrai5 {
 	margin-top: 150px;
 	background-color: rgba(30,201,0,0.5);
-	color: white;
+	color: black;
 	display: none;
 	border: solid green;
 }
@@ -301,7 +301,7 @@ body {
 .faux5 {
 	margin-top: 150px;
 	background-color: rgba(255,0,0,0.5);
-	color: white;
+	color: black;
 	display: none;
 	border: solid red;
 }
@@ -310,6 +310,6 @@ body {
 	display: none;
 	margin-top: 170px;
 	background-color: rgba(63,147,232,0.5);
-	color: white;
+	color: black;
 }
 

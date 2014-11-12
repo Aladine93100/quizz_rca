@@ -149,7 +149,7 @@ body {
 .question1, .question2, .question2-bis, .question2-ter, .question3, .question4, .question5, .question6 {
 	display: none;
 	margin-top: 300px;
-	background-color: rgb(0,0,0);
+	background-color: rgba(63,147,232,0.5);
 	border: solid white;
 	color: white;
 }

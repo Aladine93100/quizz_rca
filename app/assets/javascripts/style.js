@@ -160,7 +160,7 @@ $('document').ready(function() {
 
 	$(".suivant-video5").click(function() {
 		$( ".video-richesse" ).hide( "slow" );
-		$( ".end" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".end, .pagination" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".suivant5").click(function() {

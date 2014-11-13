@@ -160,13 +160,17 @@ $('document').ready(function() {
 
 	$(".suivant-video5").click(function() {
 		$( ".video-richesse" ).hide( "slow" );
-		$( ".end, .pagination" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".end, .centrafrique" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".suivant5").click(function() {
 		$( ".question5" ).hide( "slow" );
-		$( ".end, .pagination" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".end, .centrafrique" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
+
+
+
+	/* pagination */
 
 	$("#q1").click(function() {
 		$( ".end, .question2, .question2-bis, .question2-ter, .question3, .question4, .question5, .suivant1, .suivant-video1" ).hide( "slow" );

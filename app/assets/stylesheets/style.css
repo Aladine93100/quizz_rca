@@ -313,6 +313,10 @@ body {
 	color: black;
 }
 
+.centrafrique {
+	display: none;
+}
+
 /* pagination */
 
 .pagination {

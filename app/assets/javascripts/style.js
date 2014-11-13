@@ -165,7 +165,42 @@ $('document').ready(function() {
 
 	$(".suivant5").click(function() {
 		$( ".question5" ).hide( "slow" );
-		$( ".end" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".end, .pagination" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$("#q1").click(function() {
+		$( ".end, .question2, .question2-bis, .question2-ter, .question3, .question4, .question5, .suivant1, .suivant-video1" ).hide( "slow" );
+		$( ".question1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$("#q2").click(function() {
+		$( ".end, .question1, .question2-bis, .question2-ter, .question3, .question4, .question5, .suivant1, .suivant-video1" ).hide( "slow" );
+		$( ".question2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$("#q3").click(function() {
+		$( ".end, .question1, .question2, .question2-bis, .question3 .question4, .question5, .suivant1, .suivant-video1" ).hide( "slow" );
+		$( ".question2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$("#q4").click(function() {
+		$( ".end, .question2, .question1, .question2-ter, .question3 .question5, .suivant1, .suivant-video1" ).hide( "slow" );
+		$( ".question2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$("#q5").click(function() {
+		$( ".end, .question2, .question2-bis, .question2-ter, .question1, .question4, .suivant1, .suivant-video1" ).hide( "slow" );
+		$( ".question3" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$("#q6").click(function() {
+		$( ".end, .question2, .question2-bis, .question2-ter, .question3, .question4, .question5, .question1, .suivant1, .suivant-video1" ).hide( "slow" );
+		$( ".question4" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$("#q7").click(function() {
+		$( ".end, .question2, .question2-bis, .question2-ter, .question3, .question4, .question1, .suivant1, .suivant-video1" ).hide( "slow" );
+		$( ".question5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 

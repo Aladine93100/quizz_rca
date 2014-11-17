@@ -330,3 +330,8 @@ li {
 	color: white;
 
 }
+
+.test {
+	display: none;
+	background: url(end-up.jpg);
+}

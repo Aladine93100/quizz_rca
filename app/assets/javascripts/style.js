@@ -41,12 +41,12 @@ $('document').ready(function() {
 
 	$(".reponse-chretien, .reponse-animiste").click(function() {
 		$( ".question2-ter" ).hide( "slow" );
-		$( ".faux2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".vrai2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".reponse-muslim").click(function() {
 		$( ".question2-ter" ).hide( "slow" );
-		$( ".vrai2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".faux2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".suivant2-ter").click(function() {
@@ -160,12 +160,17 @@ $('document').ready(function() {
 
 	$(".suivant-video5").click(function() {
 		$( ".video-richesse" ).hide( "slow" );
-		$( ".end, .centrafrique" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".centrafrique" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".suivant5").click(function() {
 		$( ".question5" ).hide( "slow" );
-		$( ".end, .centrafrique" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".centrafrique" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".suivant-end").click(function() {
+		$( ".centrafrique" ).hide( "slow" );
+		$( ".chrono" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 

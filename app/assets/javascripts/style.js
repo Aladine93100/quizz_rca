@@ -49,10 +49,10 @@ $('document').ready(function() {
 		$( ".faux2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
-	$(".suivant2-ter").click(function() {
-		$( ".vrai2-ter, .faux2-ter" ).hide( "slow" );
-		$( ".question2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
-	});
+	// $(".suivant2-ter").click(function() {
+	// 	$( ".vrai2-ter, .faux2-ter" ).hide( "slow" );
+	// 	$( ".question2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	// });
 
 	$(".reponse-bokassa, .reponse-deby").click(function() {
 		$( ".question2-bis" ).hide( "slow" );
@@ -177,25 +177,43 @@ $('document').ready(function() {
 
 	/* pagination */
     
-    $("#p1").click(function() {
-		$( "#part2, #part3, #part4" ).hide( "slow" );
-		$( "#part1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+    $("#next1").click(function() {
+		$( ".faux2-ter" ).hide( "slow" );
+		$( ".faux2-ter2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
-	$("#p2").click(function() {
-		$( "#part1, #part3, #part4" ).hide( "slow" );
-		$( "#part2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	$("#next2").click(function() {
+		$( ".faux2-ter2" ).hide( "slow" );
+		$( ".faux2-ter3" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
-	$("#p3").click(function() {
-		$( "#part2, #part1, #part4" ).hide( "slow" );
-		$( "#part3" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	$("#preview2").click(function() {
+		$( ".faux2-ter2" ).hide( "slow" );
+		$( ".faux2-ter1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
-	$("#p4").click(function() {
-		$( "#part3, #part1, #part2" ).hide( "slow" );
-		$( "#part4" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	$("#next3").click(function() {
+		$( ".faux2-ter3" ).hide( "slow" );
+		$( ".faux2-ter4" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
+
+	$("#preview3").click(function() {
+		$( ".faux2-ter3" ).hide( "slow" );
+		$( ".faux2-ter2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$("#next4").click(function() {
+		$( ".faux2-ter4" ).hide( "slow" );
+		$( ".question2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$("#preview4").click(function() {
+		$( ".faux2-ter4" ).hide( "slow" );
+		$( ".faux2-ter3" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+
+
 
 
 	$("#q1").click(function() {

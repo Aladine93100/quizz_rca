@@ -157,7 +157,6 @@ body {
 .temoignage {
 	display: none;
 	margin-top: 150px;
-	margin-left: 65px;
 	background-color: rgb(63,147,232);
 	color: black;
 }
@@ -315,6 +314,7 @@ body {
 
 .centrafrique {
 	display: none;
+	margin-top: 50px;
 }
 
 /* pagination */

@@ -132,7 +132,7 @@ body {
 
 .launch {
 	display: none;
-	margin-top: 50px;
+	margin-top: 20px;
 	color: white;
 	background-color: rgb(30,201,0);
 }
@@ -241,6 +241,11 @@ body {
 	color: black;
 	display: none;
 	border: solid red;
+}
+
+#part1, #part2, #part3, #part4 {
+	display: none;
+
 }
 
 /*Question 3*/

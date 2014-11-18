@@ -176,6 +176,27 @@ $('document').ready(function() {
 
 
 	/* pagination */
+    
+    $("#p1").click(function() {
+		$( "#part2, #part3, #part4" ).hide( "slow" );
+		$( "#part1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$("#p2").click(function() {
+		$( "#part1, #part3, #part4" ).hide( "slow" );
+		$( "#part2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$("#p3").click(function() {
+		$( "#part2, #part1, #part4" ).hide( "slow" );
+		$( "#part3" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$("#p4").click(function() {
+		$( "#part3, #part1, #part2" ).hide( "slow" );
+		$( "#part4" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
 
 	$("#q1").click(function() {
 		$( ".end, .question2, .question2-bis, .question2-ter, .question3, .question4, .question5, .suivant1, .suivant-video1" ).hide( "slow" );

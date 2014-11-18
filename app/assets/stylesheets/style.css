@@ -141,14 +141,14 @@ body {
 	display: none;
 	font-size: 20px;
 	font-family: 'Hammersmith One', sans-serif;
-	margin-top: 250px;
+	margin-top: 300px;
 	background-color: rgba(0,0,0,0);
 	color: white;
 }
 
 .question1, .question2, .question2-bis, .question2-ter, .question3, .question4, .question5, .question6 {
 	display: none;
-	margin-top: 150px;
+	margin-top: 300px;
 	background-color: rgba(63,147,232,0.5);
 	border: solid white;
 	color: black;
@@ -156,14 +156,14 @@ body {
 
 .temoignage {
 	display: none;
-	margin-top: 150px;
+	margin-top: 300px;
 	background-color: rgb(63,147,232);
 	color: black;
 }
 
 .video-bozize {
 	display: none;
-	margin-top: 150px;
+	margin-top: 300px;
 	margin-left: 100px;
 	margin-right: 100px;
 	background-color: rgba(63,147,232,0.5);
@@ -171,7 +171,7 @@ body {
 }
 
 .vrai1 {
-	margin-top: 150px;
+	margin-top: 300px;
 	background-color: rgb(30,201,0);
 	color: black;
 	display: none;
@@ -179,7 +179,7 @@ body {
 }
 
 .faux1 {
-    margin-top: 150px;
+	margin-top: 300px;
 	background-color: rgb(255,0,0);
 	color: black;
 	display: none;
@@ -194,7 +194,7 @@ body {
 
 
 .vrai2 {
-	margin-top: 150px;
+	margin-top: 300px;
 	background-color: rgb(30,201,0);
 	color: white;
 	display: none;
@@ -202,7 +202,7 @@ body {
 }
 
 .faux2 {
-	margin-top: 150px;
+	margin-top: 300px;
 	background-color: rgb(255,0,0);
 	color: white;
 	display: none;
@@ -210,7 +210,7 @@ body {
 }
 
 .vrai2-bis {
-	margin-top: 150px;
+	margin-top: 300px;
 	background-color: rgb(30,201,0);	
 	color: black;
 	display: none;
@@ -219,7 +219,7 @@ body {
 }
 
 .faux2-bis {
-	margin-top: 150px;
+	margin-top: 300px;
 	background-color: rgb(255,0,0);
 	color: black;
 	display: none;
@@ -227,7 +227,7 @@ body {
 }
 
 .vrai2-ter {
-	margin-top: 150px;
+	margin-top: 300px;
 	background-color: rgb(30,201,0);
 	color: black;
 	display: none;
@@ -236,7 +236,7 @@ body {
 }
 
 .faux2-ter {
-	margin-top: 150px;
+	margin-top: 300px;
 	background-color: rgb(255,0,0);
 	color: black;
 	display: none;
@@ -246,7 +246,7 @@ body {
 /*Question 3*/
 
 .vrai3 {
-	margin-top: 150px;
+	margin-top: 300px;
 	background-color: rgb(30,201,0);
 	color: black;
 	display: none;
@@ -254,7 +254,7 @@ body {
 }
 
 .faux3 {
-	margin-top: 150px;
+	margin-top: 300px;
 	background-color: rgb(255,0,0);
 	color: black;
 	display: none;
@@ -265,7 +265,7 @@ body {
 
 
 .vrai4 {
-	margin-top: 150px;
+	margin-top: 300px;
 	background-color: rgb(30,201,0);
 	color: black;
 	display: none;
@@ -273,7 +273,7 @@ body {
 }
 
 .faux4 {
-	margin-top: 150px;
+	margin-top: 300px;
 	background-color: rgb(255,0,0);
 	color: black;
 	display: none;
@@ -282,7 +282,7 @@ body {
 
 .video-sangaris {
 	display: none;
-	margin-top: 160px;
+	margin-top: 300px;
 	background-color: rgb(63,147,232,0.5);
 	color: black;
 }
@@ -290,7 +290,7 @@ body {
 /* Question 5*/
 
 .vrai5 {
-	margin-top: 150px;
+	margin-top: 300px;
 	background-color: rgb(30,201,0);
 	color: black;
 	display: none;
@@ -298,7 +298,7 @@ body {
 }
 
 .faux5 {
-	margin-top: 150px;
+	margin-top: 300px;
 	background-color: rgb(255,0,0);
 	color: black;
 	display: none;
@@ -307,7 +307,7 @@ body {
 
 .video-richesse {
 	display: none;
-	margin-top: 170px;
+	margin-top: 300px;
 	background-color: rgba(63,147,232,0.5);
 	color: black;
 }

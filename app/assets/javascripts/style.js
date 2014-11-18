@@ -212,6 +212,41 @@ $('document').ready(function() {
 		$( ".faux2-ter3" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
+    $("#next1-vrai").click(function() {
+		$( ".vrai2-ter" ).hide( "slow" );
+		$( ".vrai2-ter2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$("#next2-vrai").click(function() {
+		$( ".vrai2-ter2" ).hide( "slow" );
+		$( ".vrai2-ter3" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$("#preview2-vrai").click(function() {
+		$( ".vrai2-ter2" ).hide( "slow" );
+		$( ".vrai2-ter1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$("#next3-vrai").click(function() {
+		$( ".vrai2-ter3" ).hide( "slow" );
+		$( ".vrai2-ter4" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$("#preview3-vrai").click(function() {
+		$( ".vrai2-ter3" ).hide( "slow" );
+		$( ".vrai2-ter2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$("#next4-vrai").click(function() {
+		$( ".vrai2-ter4" ).hide( "slow" );
+		$( ".question2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$("#preview4-vrai").click(function() {
+		$( ".vrai2-ter4" ).hide( "slow" );
+		$( ".vrai2-ter3" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
 
 
 

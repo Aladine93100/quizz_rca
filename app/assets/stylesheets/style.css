@@ -226,7 +226,7 @@ body {
 	border: solid red;
 }
 
-.vrai2-ter {
+.vrai2-ter, .vrai2-ter2, .vrai2-ter3, .vrai2-ter4 {
 	margin-top: 300px;
 	background-color: rgb(30,201,0);
 	color: black;

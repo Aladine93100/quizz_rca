@@ -31,7 +31,7 @@ $('document').ready(function() {
 
 	$(".suivant-video1").click(function() {
 		$( ".video-bozize" ).hide( "slow" );
-		$( ".question2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".suivant1").click(function() {

@@ -132,7 +132,7 @@ body {
 
 .launch {
 	display: none;
-	margin-top: 20px;
+	margin-top: 10px;
 	color: white;
 	background-color: rgb(30,201,0);
 }
@@ -141,7 +141,7 @@ body {
 	display: none;
 	font-size: 20px;
 	font-family: 'Hammersmith One', sans-serif;
-	margin-top: 300px;
+	margin-top: 280px;
 	background-color: rgba(0,0,0,0);
 	color: white;
 }

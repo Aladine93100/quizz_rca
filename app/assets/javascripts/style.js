@@ -189,7 +189,7 @@ $('document').ready(function() {
 
 	$("#preview2").click(function() {
 		$( ".faux2-ter2" ).hide( "slow" );
-		$( ".faux2-ter1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".faux2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$("#next3").click(function() {
@@ -224,7 +224,7 @@ $('document').ready(function() {
 
 	$("#preview2-vrai").click(function() {
 		$( ".vrai2-ter2" ).hide( "slow" );
-		$( ".vrai2-ter1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".vrai2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$("#next3-vrai").click(function() {

@@ -170,7 +170,7 @@ $('document').ready(function() {
 
 	$(".suivant-end").click(function() {
 		$( ".centrafrique" ).hide( "slow" );
-		$( ".chrono" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".end, .pagination" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 
@@ -285,24 +285,5 @@ $('document').ready(function() {
 		$( ".end, .question2, .question2-bis, .question2-ter, .question3, .question4, .question1, .vrai1, .vrai2, .vrai2-bis, .vrai2-ter, .vrai3, .vrai4, .vrai5" ).hide( "slow" );
 		$( ".question5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
-
-
-	// $(".suivant4").click(function() {
-	// 	$( ".vrai4, .faux4" ).hide( "slow" );
-	// 	$( ".question5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
-	// });
-
-	// $(".video4").click(function() {
-	// 	$( ".vrai4, .faux4" ).hide( "slow" );
-	// 	$( ".video-sangaris" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
-	// });
-
-	// $(".suivant-video4").click(function() {
-	// 	$( ".video-sangaris" ).hide( "slow" );
-	// 	$( "" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
-	// });
-
-
-
 
 });

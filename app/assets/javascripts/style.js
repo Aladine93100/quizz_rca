@@ -14,6 +14,31 @@ $('document').ready(function() {
 
 	/*Question1*/
 
+	$(".reponse-1956, .reponse-1962").click(function() {
+		$( ".question5" ).hide( "slow" );
+		$( ".faux5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".reponse-1960").click(function() {
+		$( ".question5" ).hide( "slow" );
+		$( ".vrai5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".video5").click(function() {
+		$( ".question5, .vrai5, .faux5" ).hide( "slow" );
+		$( ".video-richesse" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".suivant-video5").click(function() {
+		$( ".video-richesse" ).hide( "slow" );
+		$( ".centrafrique" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".suivant5").click(function() {
+		$( ".question5" ).hide( "slow" );
+		$( ".question1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
 	$(".reponse-bongo, .reponse-patasse").click(function() {
 		$( ".question1" ).hide( "slow" );
 		$( ".faux1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
@@ -128,7 +153,7 @@ $('document').ready(function() {
 
 	$(".suivant4").click(function() {
 		$( ".vrai4, .faux4" ).hide( "slow" );
-		$( ".question5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".centrafrique" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".video4").click(function() {
@@ -138,33 +163,6 @@ $('document').ready(function() {
 
 	$(".suivant-video4").click(function() {
 		$( ".video-sangaris" ).hide( "slow" );
-		$( ".question5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
-	});
-
-	/*Question5*/
-
-	$(".reponse-1956, .reponse-1962").click(function() {
-		$( ".question5" ).hide( "slow" );
-		$( ".faux5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
-	});
-
-	$(".reponse-1960").click(function() {
-		$( ".question5" ).hide( "slow" );
-		$( ".vrai5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
-	});
-
-	$(".video5").click(function() {
-		$( ".question5, .vrai5, .faux5" ).hide( "slow" );
-		$( ".video-richesse" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
-	});
-
-	$(".suivant-video5").click(function() {
-		$( ".video-richesse" ).hide( "slow" );
-		$( ".centrafrique" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
-	});
-
-	$(".suivant5").click(function() {
-		$( ".question5" ).hide( "slow" );
 		$( ".centrafrique" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 

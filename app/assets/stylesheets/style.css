@@ -112,6 +112,10 @@ body {
     margin-top: 120px;
   }
 }
+
+.page-header {
+	font-family: 'Poiret One', cursive;
+}
 									
 .image-home {
 	background: url(home-quizz.jpg) no-repeat center fixed;

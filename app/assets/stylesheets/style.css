@@ -117,6 +117,10 @@ body {
 	font-family: 'Poiret One', cursive;
 	color: white;
 }
+
+#titre {
+	font-size: 20px;
+}
 									
 .image-home {
 	background: url(home-quizz.jpg) no-repeat center fixed;

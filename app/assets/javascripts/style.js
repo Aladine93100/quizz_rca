@@ -9,7 +9,7 @@ $('document').ready(function() {
 
 	$(".launch").click(function() {
 		$( ".intro, .launch" ).hide( "slow" );
-		$( ".question1").slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question5").slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	/*Question1*/
@@ -31,7 +31,7 @@ $('document').ready(function() {
 
 	$(".suivant-video5").click(function() {
 		$( ".video-richesse" ).hide( "slow" );
-		$( ".centrafrique" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".suivant5").click(function() {

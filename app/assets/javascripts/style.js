@@ -168,7 +168,7 @@ $('document').ready(function() {
 
 	$(".suivant-end").click(function() {
 		$( ".centrafrique" ).hide( "slow" );
-		$( "background").css(background-image, url("BG_QUIZZ.jpg");
+		$( "background").css(background-image, url("BG_QUIZZ.jpg"));
 	});
 
 

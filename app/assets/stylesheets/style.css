@@ -127,6 +127,18 @@ body {
 #titre {
 	font-size: 70px;
 }
+
+.small {
+	color: #FF0000;
+}
+
+#centre {
+	color: #189600;
+}
+
+#afrique {
+	color: #FFD700;
+}
 									
 .image-home {
 	background: url(home-quizz.jpg) no-repeat center fixed;

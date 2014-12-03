@@ -157,14 +157,14 @@ body {
 	display: none;
 	margin-top: 10px;
 	color: white;
-	background-color: rgb(30,201,0);
+	background-color: transparent;
 }
 
 .intro {
 	display: none;
 	font-size: 20px;
 	font-family: 'Hammersmith One', sans-serif;
-	margin-top: 100px;
+	margin-top: 250px;
 	background-color: rgba(0,0,0,0);
 	color: white;
 }

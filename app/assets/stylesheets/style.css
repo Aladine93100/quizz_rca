@@ -148,8 +148,9 @@ body {
 	background-color: #7770B0;
 }
 
-.navbar {
-	margin-bottom: 50px;
+.navbar-fixed-bottom {
+	margin-bottom: 0px;
+	background-color: transparent;
 }
 
 .launch {

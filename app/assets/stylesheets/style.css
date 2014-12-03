@@ -153,6 +153,11 @@ body {
 	background-color: transparent !important;
 }
 
+.btn-start {
+	background-color: transparent;
+	font-size: 30px;
+}
+
 .launch {
 	display: none;
 	margin-top: 10px;

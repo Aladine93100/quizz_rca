@@ -35,7 +35,7 @@ $('document').ready(function() {
 	});
 
 	$(".suivant5").click(function() {
-		$( ".question5" ).hide( "slow" );
+		$( ".faux5, .vrai5" ).hide( "slow" );
 		$( ".question1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 

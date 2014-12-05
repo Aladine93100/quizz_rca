@@ -121,6 +121,11 @@ body {
 	
 }
 
+.btn {
+	background-color: transparent;
+	color: rgba(250,215,0,0.5);
+}
+
 .page-header {
 	font-family: 'Poiret One', cursive;
 	color: white;

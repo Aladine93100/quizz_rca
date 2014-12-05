@@ -117,14 +117,12 @@ body {
 
 /* bouton */
 
-.suivant1 {
-	
+.suivant5, .video5, .suivant-video5, .suivant1, .video1, .suivant-video1, .suivant2, .suivant2-bis, .suivant3, .temoignage3, .suivant-temoignage, .suivant4, .video4, .suivant-video4, .suivant-end {
+   background-color: transparent;
+   color: rgba(250,215,0,0.5);
+   border: solid 10px rgba(250,215,0,0.5);
 }
 
-.btn {
-	background-color: transparent;
-	color: rgba(250,215,0,0.5);
-}
 
 .page-header {
 	font-family: 'Poiret One', cursive;

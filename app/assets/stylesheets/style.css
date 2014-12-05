@@ -88,6 +88,7 @@ body {
   .navbar-wrapper .navbar {
     padding-right: 0;
     padding-left: 0;
+    background-color: rgba(250,215,0,0.5);
   }
 
   /* The navbar becomes detached from the top, so we round the corners */
@@ -189,7 +190,7 @@ body {
 .temoignage {
 	display: none;
 	margin-top: 300px;
-	background-color: rgb(63,147,232);
+	background-color: rgba(250,215,0,0.5);
 	color: black;
 }
 
@@ -198,14 +199,14 @@ body {
 	margin-top: 300px;
 	margin-left: 100px;
 	margin-right: 100px;
-	background-color: rgba(63,147,232,0.5);
+	background-color: rgba(250,215,0,0.5);
 	color: black;
 }
 
 .vrai1 {
 	margin-top: 250px;
 	background-color: transparent;
-	color: black;
+	color: white;
 	display: none;
 	border: solid green;
 	box-shadow: green;
@@ -214,7 +215,7 @@ body {
 .faux1 {
 	margin-top: 250px;
 	background-color: transparent;
-	color: black;
+	color: white;
 	display: none;
 	border: solid red;
 	box-shadow: red;
@@ -228,90 +229,99 @@ body {
 
 
 .vrai2 {
-	margin-top: 300px;
-	background-color: rgb(30,201,0);
+	margin-top: 250px;
+	background-color: transparent;
 	color: white;
 	display: none;
 	border: solid green;
+	box-shadow: green;
 }
 
 .faux2 {
-	margin-top: 300px;
-	background-color: rgb(255,0,0);
+	margin-top: 250px;
+	background-color: transparent;
 	color: white;
 	display: none;
 	border: solid red;
+	box-shadow: red;
+
 }
 
 .vrai2-bis {
-	margin-top: 300px;
-	background-color: rgb(30,201,0);	
-	color: black;
+	margin-top: 250px;
+	background-color: transparent;
+	color: white;
 	display: none;
 	border: solid green;
-
+	box-shadow: green;
 }
 
 .faux2-bis {
-	margin-top: 300px;
-	background-color: rgb(255,0,0);
-	color: black;
+	margin-top: 250px;
+	background-color: transparent;
+	color: white;
 	display: none;
 	border: solid red;
+	box-shadow: red;
 }
 
 .vrai2-ter, .vrai2-ter2, .vrai2-ter3, .vrai2-ter4 {
-	margin-top: 300px;
-	background-color: rgb(30,201,0);
-	color: black;
+	margin-top: 250px;
+	background-color: transparent;
+	color: white;
 	display: none;
 	border: solid green;
-
+	box-shadow: green;
 }
 
 .faux2-ter, .faux2-ter2, .faux2-ter3, .faux2-ter4 {
-	margin-top: 300px;
-	background-color: rgb(255,0,0);
-	color: black;
+	margin-top: 250px;
+	background-color: transparent;
+	color: white;
 	display: none;
 	border: solid red;
+	box-shadow: red;
 }
 
 /*Question 3*/
 
 .vrai3 {
-	margin-top: 300px;
-	background-color: rgb(30,201,0);
-	color: black;
+	margin-top: 250px;
+	background-color: transparent;
+	color: white;
 	display: none;
 	border: solid green;
+	box-shadow: green;
 }
 
 .faux3 {
-	margin-top: 300px;
-	background-color: rgb(255,0,0);
-	color: black;
+	margin-top: 250px;
+	background-color: transparent;
+	color: white;
 	display: none;
 	border: solid red;
+	box-shadow: red;
 }
 
 /*Question 4*/
 
 
 .vrai4 {
-	margin-top: 300px;
-	background-color: rgb(30,201,0);
-	color: black;
+	margin-top: 250px;
+	background-color: transparent;
+	color: white;
 	display: none;
 	border: solid green;
+	box-shadow: green;
 }
 
 .faux4 {
-	margin-top: 300px;
-	background-color: rgb(255,0,0);
-	color: black;
+	margin-top: 250px;
+	background-color: transparent;
+	color: white;
 	display: none;
 	border: solid red;
+	box-shadow: red;
 }
 
 .video-sangaris {
@@ -324,7 +334,7 @@ body {
 /* Question 5*/
 
 .vrai5 {
-	margin-top: 250px;
+    margin-top: 250px;
 	background-color: transparent;
 	color: white;
 	display: none;
@@ -333,7 +343,7 @@ body {
 }
 
 .faux5 {
-	margin-top: 300px;
+	margin-top: 250px;
 	background-color: transparent;
 	color: white;
 	display: none;

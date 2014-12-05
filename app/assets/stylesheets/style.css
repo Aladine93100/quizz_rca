@@ -191,7 +191,7 @@ body {
 	display: none;
 	margin-top: 300px;
 	background-color: rgba(250,215,0,0.5);
-	color: black;
+	color: white;
 }
 
 .video-bozize {
@@ -199,7 +199,7 @@ body {
 	margin-top: 300px;
 	margin-left: 100px;
 	margin-right: 100px;
-	background-color: rgba(250,215,0,0.5);
+	background-color: transparent;
 	color: black;
 }
 
@@ -327,7 +327,7 @@ body {
 .video-sangaris {
 	display: none;
 	margin-top: 300px;
-	background-color: rgb(63,147,232,0.5);
+	background-color: transparent;
 	color: black;
 }
 
@@ -354,7 +354,7 @@ body {
 .video-richesse {
 	display: none;
 	margin-top: 300px;
-	background-color: rgba(250,215,0,0.5);
+	background-color: transparent;
 	color: white;
 	border: solid white;
 	box-shadow: white;
@@ -363,6 +363,8 @@ body {
 .centrafrique {
 	display: none;
 	margin-top: 200px;
+	background-color: rgba(250,215,0,0.5);
+	color: white;
 }
 
 /* pagination */

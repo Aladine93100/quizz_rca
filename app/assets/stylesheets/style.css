@@ -119,7 +119,7 @@ body {
 
 .suivant5, .video5, .suivant-video5, .suivant1, .video1, .suivant-video1, .suivant2, .suivant2-bis, .suivant3, .temoignage3, .suivant4, .video4, .suivant-video4 {
    background-color: transparent;
-   color: rgba(250,215,0,0.5);
+   color: white;
    border: solid 10px rgba(250,215,0,0.5);
 }
 
@@ -217,7 +217,7 @@ body {
 	color: white;
 	display: none;
 	border: solid green;
-	box-shadow: green;
+	box-shadow: green 10px;
 }
 
 .faux1 {
@@ -226,7 +226,7 @@ body {
 	color: white;
 	display: none;
 	border: solid red;
-	box-shadow: red;
+	box-shadow: red 10px;
 }
 
 #texte {
@@ -347,7 +347,7 @@ body {
 	color: white;
 	display: none;
 	border: solid green;
-	box-shadow: green;
+	box-shadow: green 20px;
 }
 
 .faux5 {
@@ -356,7 +356,7 @@ body {
 	color: white;
 	display: none;
 	border: solid red;
-	box-shadow: red;
+	box-shadow: red 20px;
 }
 
 .video-richesse {

@@ -137,6 +137,7 @@ body {
 .logo {
 	width: 20%;
 	height: auto;
+	text-align: center;
 }
 
 #titre {
@@ -159,8 +160,11 @@ body {
 
 .end {
 	display: none;
-	margin-top: 250px; 
+	margin-top: 200px;
+	margin-left: 100px; 
+	margin-right: 100px; 
 	background-color: #7770B0;
+	font-size: 30px;
 }
 
 .btn-start {

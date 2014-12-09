@@ -134,6 +134,11 @@ body {
 	color: white;
 }
 
+.logo {
+	width: 20%;
+	height: auto;
+}
+
 #titre {
 	font-size: 70px;
 }

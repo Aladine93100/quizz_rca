@@ -194,7 +194,7 @@ body {
 
 .question1, .question2, .question2-bis, .question2-ter, .question3, .question4, .question5, .question6 {
 	display: none;
-	margin-top: 300px;
+	margin-top: 200px;
 	background-color: rgba(250,215,0,0.5);
 	border: solid white;
 	color: white;
@@ -202,14 +202,14 @@ body {
 
 .temoignage {
 	display: none;
-	margin-top: 300px;
+	margin-top: 200px;
 	background-color: rgba(250,215,0,0.5);
 	color: white;
 }
 
 .video-bozize {
 	display: none;
-	margin-top: 300px;
+	margin-top: 200px;
 	margin-left: 100px;
 	margin-right: 100px;
 	background-color: transparent;
@@ -217,7 +217,7 @@ body {
 }
 
 .vrai1 {
-	margin-top: 250px;
+	margin-top: 200px;
 	background-color: transparent;
 	color: white;
 	display: none;
@@ -226,7 +226,7 @@ body {
 }
 
 .faux1 {
-	margin-top: 250px;
+	margin-top: 200px;
 	background-color: transparent;
 	color: white;
 	display: none;

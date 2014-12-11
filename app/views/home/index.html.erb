@@ -91,20 +91,18 @@
           </div>
         </div>
       </div>
-
       <button type="button" class="btn btn-primary suivant5"><h1>Suivant</h1></button> 
       <button type="button" class="btn btn-primary video5"><h1>Vidéo</h1></button> 
     </div>
     <h2>Comme vu précédemment, cette ancienne colonie française est en crise chronique depuis son indépendance en 1960. Le pays est en proie depuis des années aux bandes armées et criminelles. Entre or, uranium, pétroles et autres ressources, la Centrafrique est un pays potentiellement très riche et dont les gisements représentent un enjeu dans le conflit en cours, surtout les diamants. " Le diamant dominant les industries extractives, avec 323 575 carats officiellement exportés en 2011. Officiellement, car plus de la moitié de la production diamantifère échappe au contrôle de l’État, alimentant la contrebande. L’uranium, en revanche, n’est pas encore exploité."(source L'Humanité, 12 Décembre, 2013)</h2>
   </div>
 </div>
+</div>
 
 <div class="panel panel-default video-richesse">
   <div class="panel-body text-center">  
     <iframe width='460' height='259' frameborder='0' marginheight ='0' marginwidth='0' scrolling ='no' src='http://player.ina.fr/player/embed/CAB7901536101/1/1b0bd203fbcd702f9bc9b10ac3d0fc21/460/259/0/08db52' ></iframe><br><button type="button" class="btn btn-default suivant-video5"><h1>Suivant</h1></button>
   </div>
-</div>
-
 </div>
 
 
@@ -229,7 +227,6 @@
         <%= image_tag "archeveque.jpg" =%> 
       </div>  
       *Photo : Mgr Dieudonné Nzapalainga, archevêque de Bangui et Oumar Kobine Layama, président de la Communauté islamique centrafricaine
-
     </h2>  
     <ul class="pager">
       <li id="preview2-vrai"><a>Previous</a></li>
@@ -419,193 +416,165 @@
             *Témoignage récolté par DIGNITE international, dans le camp de réfugiés de Ndjamena au Tchad</h2>
           </div>
         </div>
+      </div>
 
-        <div class="panel panel-default faux3">
+      <div class="panel panel-default faux3">
+        <div class="panel-body">
+          <h1 class="text-center wrong">Mauvaise Réponse !</h1>
+          <div class="media text-center">
+            <%= image_tag "retournes.jpg" =%><br> 
+            <button type="button" class="btn btn-primary suivant3"><h1>Suivant</h1></button> 
+            <button type="button" class="btn btn-primary temoignage3"><h1>Témoignage</h1></button> 
+          </div>
+          <h2>Six mois après le début de l’intervention de la force française en RCA, près de 350.000 personnes ont fui les violences, dont quelques 110.000 ont trouvé refuge au Tchad voisin. Une partie sont d'origine tchadienne par leurs parents ou né là bas. On les appelle les "retournés".<br>
+            <br>
+            90% des réfugiés présents au Tchad sont des femmes et des enfants. Au mois de janvier 2014, L'UNICEF dénombrait 250 enfants non accompagnés qui ont fui dans la précipitation. Certains voyant leurs propres parents assassinés sous leurs yeux.</h2>
+          </div>
+        </div>
+
+        <!-- Question 4 -->
+
+        <div class="panel panel-default question4">
+          <div class="panel-body text-center">
+            <h1>La France en interposition</h1><br>
+            <hr>
+            <h1>Comment est baptisée la force française d'interposition déployée en Centrafrique ?</h1>
+            <div class="btn-group">
+              <button type="button" class="btn btn-default reponse-sangaris"><h3>Sangaris</h3></button>
+              <button type="button" class="btn btn-default reponse-epervier"><h3>Epervier</h3></button>
+              <button type="button" class="btn btn-default reponse-aigle"><h3>Aigle Royal</h3></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default vrai4">
+          <div class="panel-body">
+            <h1 class="text-center wright">Bonne réponse !</h1>
+            <div class="media">
+              <a class="pull-left thumbnail">
+                <%= image_tag "sangaris.jpg" =%> 
+              </a><br>
+              <br>
+            </div>
+            <button type="button" class="btn btn-primary suivant4"><h1>Suivant</h1></button>
+            <button type="button" class="btn btn-primary video4"><h1>Vidéo</h1></button>
+            <h2>La force Sangaris comptant aujourd'hui 2000 hommes s'était déployée le 5 décembre 2013. Au départ prévue pour une période de quatre à six mois, face à la situation sur le terrain on a très vite admis qu'il faudra au moins un an pour pacifier ce pays profondément déchiré. Depuis le 15 septembre 2014, l'ONU a autorisé le déploiement d'une nouvelle mission des casques bleus ( la MINUSCA qui compte 8600 soldats). Ces forces doivent pacifier le pays afin que puissent se tenir les prochaines élections. Un an plus tard, le ministre de la Défense, Jean-Yves Le Drian, annonce : « On va diminuer en fonction de la montée en puissance de la Minusca » en passant de 2000 à 1500 hommes.</h2>
+          </div>
+        </div>
+
+        <div class="panel panel-default faux4">
           <div class="panel-body">
             <h1 class="text-center wrong">Mauvaise Réponse !</h1>
-            <div class="media text-center">
-              <%= image_tag "retournes.jpg" =%><br> 
-              <button type="button" class="btn btn-primary suivant3"><h1>Suivant</h1></button> 
-              <button type="button" class="btn btn-primary temoignage3"><h1>Témoignage</h1></button> 
-            </div>
-            <h2>Six mois après le début de l’intervention de la force française en RCA, près de 350.000 personnes ont fui les violences, dont quelques 110.000 ont trouvé refuge au Tchad voisin. Une partie sont d'origine tchadienne par leurs parents ou né là bas. On les appelle les "retournés".<br>
+            <div class="media">
+              <a class="pull-left thumbnail">
+                <%= image_tag "sangaris.jpg" =%> 
+              </a><br>
               <br>
-              90% des réfugiés présents au Tchad sont des femmes et des enfants. Au mois de janvier 2014, L'UNICEF dénombrait 250 enfants non accompagnés qui ont fui dans la précipitation. Certains voyant leurs propres parents assassinés sous leurs yeux.</h2>
             </div>
+            <button type="button" class="btn btn-primary suivant4"><h1>Suivant</h1></button> 
+            <button type="button" class="btn btn-primary video4"><h1>Vidéo</h1></button>
+            <h2> La force Sangaris comptant aujourd'hui 2000 hommes s'était déployée le 5 décembre 2013. Au départ prévue pour une période de quatre à six mois, face à la situation sur le terrain on a très vite admis qu'il faudra au moins un an pour pacifier ce pays profondément déchiré. Depuis le 15 septembre 2014, l'ONU a autorisé le déploiement d'une nouvelle mission des casques bleus ( la MINUSCA qui compte 8600 soldats). Ces forces doivent pacifier le pays afin que puissent se tenir les prochaines élections. Un an plus tard, le ministre de la Défense, Jean-Yves Le Drian, annonce : « On va diminuer en fonction de la montée en puissance de la Minusca » en passant de 2000 à 1500 hommes. </h2>
           </div>
+        </div>
 
-          <!-- Question 4 -->
+        <div class="panel panel-default video-sangaris">
+          <div class="panel-body text-center">  
+            <iframe width="430" height="242" src="//www.youtube.com/embed/ZfjrSmPr6fc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><br>
+            <button type="button" class="btn btn-default suivant-video4"><h1>Suivant</h1></button>
+          </div>
+        </div>
 
-          <div class="panel panel-default question4">
-            <div class="panel-body text-center">
-              <h1>La France en interposition</h1><br>
-              <hr>
-              <h1>Comment est baptisée la force française d'interposition déployée en Centrafrique ?</h1>
-              <div class="btn-group">
-                <button type="button" class="btn btn-default reponse-sangaris"><h3>Sangaris</h3></button>
-                <button type="button" class="btn btn-default reponse-epervier"><h3>Epervier</h3></button>
-                <button type="button" class="btn btn-default reponse-aigle"><h3>Aigle Royal</h3></button>
-              </div>
+        <!-- FIN -->
+
+        <div class="panel panel-default centrafrique">
+          <div class="panel-body">
+            <h1 class="text-center">DIGNITE International au Tchad</h1>
+            <div class="media">
+              <a class="pull-left thumbnail">
+                <%= image_tag "" =%> 
+              </a>
+              <button type="button" class="btn btn-primary suivant-end"><h1>SUIVEZ-NOUS</h1></button>   
             </div>
-          </div>
-
-          <div class="panel panel-default vrai4">
-            <div class="panel-body">
-              <h1 class="text-center wright">Bonne réponse !</h1>
-              <div class="media">
-                <a class="pull-left thumbnail">
-                  <%= image_tag "sangaris.jpg" =%> 
-                </a><br>
-                <br>
-              </div>
-              <button type="button" class="btn btn-primary suivant4"><h1>Suivant</h1></button>
-              <button type="button" class="btn btn-primary video4"><h1>Vidéo</h1></button>
-              <h2>La force Sangaris comptant aujourd'hui 2000 hommes s'était déployée le 5 décembre 2013. Au départ prévue pour une période de quatre à six mois, face à la situation sur le terrain on a très vite admis qu'il faudra au moins un an pour pacifier ce pays profondément déchiré. Depuis le 15 septembre 2014, l'ONU a autorisé le déploiement d'une nouvelle mission des casques bleus ( la MINUSCA qui compte 8600 soldats). Ces forces doivent pacifier le pays afin que puissent se tenir les prochaines élections. Un an plus tard, le ministre de la Défense, Jean-Yves Le Drian, annonce : « On va diminuer en fonction de la montée en puissance de la Minusca » en passant de 2000 à 1500 hommes.</h2>
-            </div>
-          </div>
-
-          <div class="panel panel-default faux4">
-            <div class="panel-body">
-              <h1 class="text-center wrong">Mauvaise Réponse !</h1>
-              <div class="media">
-                <a class="pull-left thumbnail">
-                  <%= image_tag "sangaris.jpg" =%> 
-                </a><br>
-                <br>
-              </div>
-              <button type="button" class="btn btn-primary suivant4"><h1>Suivant</h1></button> 
-              <button type="button" class="btn btn-primary video4"><h1>Vidéo</h1></button>
-              <h2> La force Sangaris comptant aujourd'hui 2000 hommes s'était déployée le 5 décembre 2013. Au départ prévue pour une période de quatre à six mois, face à la situation sur le terrain on a très vite admis qu'il faudra au moins un an pour pacifier ce pays profondément déchiré. Depuis le 15 septembre 2014, l'ONU a autorisé le déploiement d'une nouvelle mission des casques bleus ( la MINUSCA qui compte 8600 soldats). Ces forces doivent pacifier le pays afin que puissent se tenir les prochaines élections. Un an plus tard, le ministre de la Défense, Jean-Yves Le Drian, annonce : « On va diminuer en fonction de la montée en puissance de la Minusca » en passant de 2000 à 1500 hommes. </h2>
-            </div>
-          </div>
-
-          <div class="panel panel-default video-sangaris">
-            <div class="panel-body text-center">  
-              <iframe width="430" height="242" src="//www.youtube.com/embed/ZfjrSmPr6fc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><br>
-              <button type="button" class="btn btn-default suivant-video4"><h1>Suivant</h1></button>
-            </div>
-          </div>
-
-          <!-- Question 5 -->
-
-          <div class="panel panel-default centrafrique">
-            <div class="panel-body">
-              <h1 class="text-center">DIGNITE International au Tchad</h1>
-              <div class="media">
-                <a class="pull-left thumbnail">
-                  <%= image_tag "" =%> 
-                </a>
-                <button type="button" class="btn btn-primary suivant-end"><h1>SUIVEZ-NOUS</h1></button>   
-              </div>
-              <h2> Depuis le mois de juin 2014, DIGNITE International est en mission au Tchad auprès des réfugiés centrafricains. Après un état des lieux réalisé sur place, plusieurs programmes d'aides ont été développés.<br>
-                Une opération alimentaire et festive a été organisée auprès des enfants du camp de Sarh qui compte 61 orphelins<br>
-                300 colis alimentaires ont été distribués pour environs 1500 bénéficiaires au camp de réfugiés de Ndjamena<br>
-                Dans le cadre d'un programme de développement agricole au Tchad, un premier cheptel de 40 chèvres et agneaux a été constitué. Suivez notre page Facebook pour suivre le déroulement de ce fabuleux projet
-                Programme de parrainage des orphelins (disponible sur notre site internet)
-                <div class="row">
-                  <div class="col-sm-12 col-md-12">
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                      </ol>
-                      <div class="carousel-inner">
-                        <div class="item">
-                          <%= image_tag 'aid1.jpg' %>
-                        </div>
-                        <div class="item active">
-                          <%= image_tag 'aid2.jpg' %>
-                        </div>
-                        <div class="item">
-                          <img src="http://dignite-international.org/wp-content/uploads/2014/12/IMG_4120-e1417793234595.jpg">
-                          <div class="container">
-                            <div class="carousel-caption">
-                            </div>
+            <h2> Depuis le mois de juin 2014, DIGNITE International est en mission au Tchad auprès des réfugiés centrafricains. Après un état des lieux réalisé sur place, plusieurs programmes d'aides ont été développés.<br>
+              Une opération alimentaire et festive a été organisée auprès des enfants du camp de Sarh qui compte 61 orphelins<br>
+              300 colis alimentaires ont été distribués pour environs 1500 bénéficiaires au camp de réfugiés de Ndjamena<br>
+              Dans le cadre d'un programme de développement agricole au Tchad, un premier cheptel de 40 chèvres et agneaux a été constitué. Suivez notre page Facebook pour suivre le déroulement de ce fabuleux projet
+              Programme de parrainage des orphelins (disponible sur notre site internet)
+              <div class="row">
+                <div class="col-sm-12 col-md-12">
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="item">
+                        <%= image_tag 'aid1.jpg' %>
+                      </div>
+                      <div class="item active">
+                        <%= image_tag 'aid2.jpg' %>
+                      </div>
+                      <div class="item">
+                        <img src="http://dignite-international.org/wp-content/uploads/2014/12/IMG_4120-e1417793234595.jpg">
+                        <div class="container">
+                          <div class="carousel-caption">
                           </div>
                         </div>
                       </div>
-                      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-                      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
                   </div>
-                </div> 
-              </h2>
-            </div>
+                </div>
+              </div> 
+            </h2>
           </div>
-
-          <div class="panel panel-default end">
-            <div class="panel-body">
-              <div class="media">
-                <a class="media-left" href="www.dignite-international.org">
-                  <img src="http://dignite-international.org/wp-content/uploads/2014/12/zakat_maal_mailingok.png" alt="...">
-                </a>
-                <div class="media-body">
-                  <a href="www.dignite-international.org"><h4 class="media-heading">Zakat Al Maal</h4></a><br>
-                  <p>Soutenez nos projets humanitaires pour les réfugiés centrafricains en nous reversant votre Zakat Al Maal. Plus d'infos sur notre site. (Cliquez sur la photo)</p>
-                </div>
-              </div>
-              <div class="media">
-                <div class="media-body">
-                  <a class="media-right" href="#">
-                    <img src="http://dignite-international.org/wp-content/uploads/2014/10/banniere-parrainage.jpg" alt="...">
-                  </a>
-                  <p>Faites un don pour la Caisse Orphelin qui prend en charge 64 orphelins centrafricains réfugiés au Tchad</p>
-                  <h2>Oui, je fais un don pour un des programmes de DIGNITE International !</h2>
-                  <button type="button" class="btn btn-primary" href="http://dignite-international.org/faire-un-don/">Je fais un don !</button>
-                </div>
-              </div>
-
-              <hr>
-              <div class="fb-like" data-href="https://www.facebook.com/dignite.international?ref=hl" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-            </div>
-          </div>
-
-
-
-
-
-<!-- 
-          <div class="container">
-            <div class="end">
-              <div class="thumbnail">
-                <a href="http://www.dignite-international.org" ><%= image_tag "end-up.jpg" =%> </a>
-                <div class="media">
-                  <a class="media-left" href="https://www.facebook.com/dignite.international"> <%= image_tag "end-down.jpg" =%> </a>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
-          <nav class="navbar navbar-default navbar-fixed-bottom text-center" role="navigation">
-            <button type="button" class="btn btn-default btn-start"><h1>Commencer le quizz</h1></button>
-          </nav>
-
-          <nav class="text-center">
-            <ul class="pagination">
-              <li id="q1"><a>1</a></li>
-              <li id="q2"><a>2</a></li>
-              <li id="q3"><a>3</a></li>
-              <li id="q4"><a>4</a></li>
-              <li id="q5"><a>5</a></li>
-              <li id="q6"><a>6</a></li>
-              <li id="q7"><a>7</a></li>
-            </ul>
-          </nav>
-
-
-
-<!-- 
-  <div class="media">
-    <div class="media-body">
-      <button class="start1">Do it!</button>
-      <span class="quest1">Are you sure? (type 'yes' if you are) </span>
-      <div class="rep1">
-        <form>
-          <input type="text"  value="as;ldkfjalsdf">
-        </form>
+        </div>
       </div>
-      <p id="rep1" style="display:none;">I'm hidden...</p>
+
+      <div class="panel panel-default end">
+        <div class="panel-body">
+          <div class="media">
+            <a class="media-left" href="www.dignite-international.org">
+              <img src="http://dignite-international.org/wp-content/uploads/2014/12/zakat_maal_mailingok.png" alt="...">
+            </a>
+            <div class="media-body">
+              <a href="www.dignite-international.org"><h4 class="media-heading">Zakat Al Maal</h4></a><br>
+              <p>Soutenez nos projets humanitaires pour les réfugiés centrafricains en nous reversant votre Zakat Al Maal. Plus d'infos sur notre site. (Cliquez sur la photo)</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-body">
+              <a class="media-right" href="#">
+                <img src="http://dignite-international.org/wp-content/uploads/2014/10/banniere-parrainage.jpg" alt="...">
+              </a>
+              <p>Faites un don pour la Caisse Orphelin qui prend en charge 64 orphelins centrafricains réfugiés au Tchad</p>
+              <h2>Oui, je fais un don pour un des programmes de DIGNITE International !</h2>
+              <button type="button" class="btn btn-primary" href="http://dignite-international.org/faire-un-don/">Je fais un don !</button>
+            </div>
+          </div>
+
+          <hr>
+          <div class="fb-like" data-href="https://www.facebook.com/dignite.international?ref=hl" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-default navbar-fixed-bottom text-center" role="navigation">
+        <button type="button" class="btn btn-default btn-start"><h1>Commencer le quizz</h1></button>
+      </nav>
+
+      <nav class="pagination">
+        <h2>Revoir les 7 questions</h2>
+        <ul>
+          <li id="q1"><a>1</a></li>
+          <li id="q2"><a>2</a></li>
+          <li id="q3"><a>3</a></li>
+          <li id="q4"><a>4</a></li>
+          <li id="q5"><a>5</a></li>
+          <li id="q6"><a>6</a></li>
+          <li id="q7"><a>7</a></li>
+        </ul>
+      </nav>
     </div>
-  </div> -->

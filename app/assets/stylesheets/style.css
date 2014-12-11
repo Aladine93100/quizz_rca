@@ -162,7 +162,8 @@ body {
 	margin-top: 200px;
 	margin-left: 100px; 
 	margin-right: 100px; 
-	background-color: #7770B0;
+	background-color: rgba(250,215,0,0.5);
+	color: white;
 }
 
 .btn-start {
@@ -393,7 +394,7 @@ body {
 
 /* pagination */
 
-.pagination {
+.repeat {
 	display: none;
 	margin-top: 300px;
 	text-align: center;	

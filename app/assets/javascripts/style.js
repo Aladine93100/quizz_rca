@@ -13,7 +13,7 @@ $('document').ready(function() {
 	});
 
 	/*Question1*/
-
+ 
 	$(".reponse-1956, .reponse-1962").click(function() {
 		$( ".question5" ).hide( "slow" );
 		$( ".faux5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
@@ -56,44 +56,13 @@ $('document').ready(function() {
 
 	$(".suivant-video1").click(function() {
 		$( ".video-bozize" ).hide( "slow" );
-		$( ".question2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".suivant1").click(function() {
 		$( ".vrai1, .faux1" ).hide( "slow" );
-		$( ".question2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
-	});
-
-	$(".reponse-chretien, .reponse-animiste").click(function() {
-		$( ".question2-ter" ).hide( "slow" );
-		$( ".vrai2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
-	});
-
-	$(".reponse-muslim").click(function() {
-		$( ".question2-ter" ).hide( "slow" );
-		$( ".faux2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
-	});
-
-	// $(".suivant2-ter").click(function() {
-	// 	$( ".vrai2-ter, .faux2-ter" ).hide( "slow" );
-	// 	$( ".question2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
-	// });
-
-	$(".reponse-bokassa, .reponse-deby").click(function() {
-		$( ".question2-bis" ).hide( "slow" );
-		$( ".faux2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
-	});
-
-	$(".reponse-catherine").click(function() {
-		$( ".question2-bis" ).hide( "slow" );
-		$( ".vrai2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
-	});
-
-	$(".suivant2-bis").click(function() {
-		$( ".vrai2-bis, .faux2-bis" ).hide( "slow" );
 		$( ".question2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
-
 
 	/*Question2*/
 
@@ -109,7 +78,35 @@ $('document').ready(function() {
 
 	$(".suivant2").click(function() {
 		$( ".vrai2, .faux2" ).hide( "slow" );
-		$( ".question3" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+
+	$(".reponse-chretien, .reponse-animiste").click(function() {
+		$( ".question2-ter" ).hide( "slow" );
+		$( ".vrai2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".reponse-muslim").click(function() {
+		$( ".question2-ter" ).hide( "slow" );
+		$( ".faux2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	/* QUESTION 3 */
+
+	$(".reponse-bokassa, .reponse-deby").click(function() {
+		$( ".question2-bis" ).hide( "slow" );
+		$( ".faux2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".reponse-catherine").click(function() {
+		$( ".question2-bis" ).hide( "slow" );
+		$( ".vrai2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+	});
+
+	$(".suivant2-bis").click(function() {
+		$( ".vrai2-bis, .faux2-bis" ).hide( "slow" );
+		$( ".question2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	/*Question3*/

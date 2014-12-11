@@ -163,7 +163,6 @@ body {
 	margin-left: 100px; 
 	margin-right: 100px; 
 	background-color: #7770B0;
-	font-size: 30px;
 }
 
 .btn-start {
@@ -383,6 +382,15 @@ body {
 	color: white;
 }
 
+.media-left, .media-right {
+	width: 20%;
+	height: auto;
+}
+
+.fb-like {
+	font-size: 30px;
+}
+
 /* pagination */
 
 .pagination {
@@ -397,7 +405,3 @@ li {
 
 }
 
-.test {
-	display: none;
-	background: url(end-up.jpg);
-}

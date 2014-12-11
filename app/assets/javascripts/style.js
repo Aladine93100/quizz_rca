@@ -106,7 +106,7 @@ $('document').ready(function() {
 
 	$(".suivant2-bis").click(function() {
 		$( ".vrai2-bis, .faux2-bis" ).hide( "slow" );
-		$( ".question2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question3" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	/*Question3*/

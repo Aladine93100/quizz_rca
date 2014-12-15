@@ -31,12 +31,12 @@ $('document').ready(function() {
 
 	$(".suivant-video5").click(function() {
 		$( ".video-richesse" ).hide( "slow" );
-		$( ".question1, #q1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question1, #q1, .repeat" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".suivant5").click(function() {
 		$( ".faux5, .vrai5" ).hide( "slow" );
-		$( ".question1, #q1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question1, #q1, .repeat" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".reponse-bongo, .reponse-patasse").click(function() {

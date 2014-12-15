@@ -247,37 +247,37 @@ $('document').ready(function() {
 
 
 	$("#q1").click(function() {
-		$( ".end, .question1, .question2, .question2-bis, .question2-ter, .question3, .question4, .vrai1, .faux1, .vrai2-ter, .vrai2-ter2, .vrai2-ter3, .vrai2-ter4, .faux2-ter, .faux2-ter2, .faux2-ter3, .faux2-ter4, .vrai5, .faux5, .vrai3, .faux3, .vrai4, .faux4, .video-richesse, .video-sangaris, .video-bozize, .centrafrique, .end" ).hide( "slow" );
+		$( ".end, .temoignage, .question1, .question2, .question2-bis, .question2-ter, .question3, .question4, .vrai1, .faux1, .vrai2-ter, .vrai2-ter2, .vrai2-ter3, .vrai2-ter4, .faux2-ter, .faux2-ter2, .faux2-ter3, .faux2-ter4, .vrai5, .faux5, .vrai3, .faux3, .vrai4, .faux4, .video-richesse, .video-sangaris, .video-bozize, .centrafrique, .end" ).hide( "slow" );
 		$( ".question5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$("#q2").click(function() {
-		$( ".end, .question2-bis, .question2-ter, .question3, .question4, .vrai1, .faux1, .vrai2-ter, .vrai2-ter2, .vrai2-ter3, .vrai2-ter4, .faux2-ter, .faux2-ter2, .faux2-ter3, .faux2-ter4, .vrai5, .faux5, .vrai3, .faux3, .vrai4, .faux4, .video-richesse, .video-sangaris, .video-bozize, .centrafrique, .end, .question5" ).hide( "slow" );
+		$( ".end, .temoignage, .question2-bis, .question2-ter, .question3, .question4, .vrai1, .faux1, .vrai2-ter, .vrai2-ter2, .vrai2-ter3, .vrai2-ter4, .faux2-ter, .faux2-ter2, .faux2-ter3, .faux2-ter4, .vrai5, .faux5, .vrai3, .faux3, .vrai4, .faux4, .video-richesse, .video-sangaris, .video-bozize, .centrafrique, .end, .question5" ).hide( "slow" );
 		$( ".question1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$("#q3").click(function() {
-		$( ".end, .question1, .question2-ter, .question2-bis, .question3, .question4, .vrai1, .faux1, .vrai2-ter, .vrai2-ter2, .vrai2-ter3, .vrai2-ter4, .faux2-ter, .faux2-ter2, .faux2-ter3, .faux2-ter4, .vrai5, .faux5, .vrai3, .faux3, .vrai4, .faux4, .video-richesse, .video-sangaris, .video-bozize, .centrafrique, .question5" ).hide( "slow" );
+		$( ".end, .temoignage, .question1, .question2-ter, .question2-bis, .question3, .question4, .vrai1, .faux1, .vrai2-ter, .vrai2-ter2, .vrai2-ter3, .vrai2-ter4, .faux2-ter, .faux2-ter2, .faux2-ter3, .faux2-ter4, .vrai5, .faux5, .vrai3, .faux3, .vrai4, .faux4, .video-richesse, .video-sangaris, .video-bozize, .centrafrique, .question5" ).hide( "slow" );
 		$( ".question2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$("#q4").click(function() {
-		$( ".end, .question1, .question2, .question2-bis, .question3, .question4, .vrai1, .faux1, .vrai2-ter, .vrai2-ter2, .vrai2-ter3, .vrai2-ter4, .faux2-ter, .faux2-ter2, .faux2-ter3, .faux2-ter4, .vrai5, .faux5, .vrai3, .faux3, .vrai4, .faux4, .video-richesse, .video-sangaris, .video-bozize, .centrafrique, .question5" ).hide( "slow" );
+		$( ".end, .temoignage, .question1, .question2, .question2-bis, .question3, .question4, .vrai1, .faux1, .vrai2-ter, .vrai2-ter2, .vrai2-ter3, .vrai2-ter4, .faux2-ter, .faux2-ter2, .faux2-ter3, .faux2-ter4, .vrai5, .faux5, .vrai3, .faux3, .vrai4, .faux4, .video-richesse, .video-sangaris, .video-bozize, .centrafrique, .question5" ).hide( "slow" );
 		$( ".question2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$("#q5").click(function() {
-		$( ".end,.question1, .question2, .question2-ter, .question4, .vrai1, .faux1, .vrai2-ter, .vrai2-ter2, .vrai2-ter3, .vrai2-ter4, .faux2-ter, .faux2-ter2, .faux2-ter3, .faux2-ter4, .vrai5, .faux5, .vrai3, .faux3, .vrai4, .faux4, .video-richesse, .video-sangaris, .video-bozize, .centrafrique, .question5" ).hide( "slow" );
+		$( ".end, .temoignage, .question1, .question2, .question2-ter, .question4, .vrai1, .faux1, .vrai2-ter, .vrai2-ter2, .vrai2-ter3, .vrai2-ter4, .faux2-ter, .faux2-ter2, .faux2-ter3, .faux2-ter4, .vrai5, .faux5, .vrai3, .faux3, .vrai4, .faux4, .video-richesse, .video-sangaris, .video-bozize, .centrafrique, .question5" ).hide( "slow" );
 		$( ".question2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$("#q6").click(function() {
-		$( ".end, .question1, .question2, .question2-bis, .question2-ter, .vrai1, .faux1, .vrai2-ter, .vrai2-ter2, .vrai2-ter3, .vrai2-ter4, .faux2-ter, .faux2-ter2, .faux2-ter3, .faux2-ter4, .vrai5, .faux5, .vrai3, .faux3, .vrai4, .faux4, .video-richesse, .video-sangaris, .video-bozize, .centrafrique, .question5" ).hide( "slow" );
+		$( ".end, .temoignage, .question1, .question2, .question2-bis, .question2-ter, .vrai1, .faux1, .vrai2-ter, .vrai2-ter2, .vrai2-ter3, .vrai2-ter4, .faux2-ter, .faux2-ter2, .faux2-ter3, .faux2-ter4, .vrai5, .faux5, .vrai3, .faux3, .vrai4, .faux4, .video-richesse, .video-sangaris, .video-bozize, .centrafrique, .question5" ).hide( "slow" );
 		$( ".question3" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$("#q7").click(function() {
-		$( ".end, .question1, .question2, .question2-bis, .question2-ter, .question3, .vrai1, .faux1, .vrai2-ter, .vrai2-ter2, .vrai2-ter3, .vrai2-ter4, .faux2-ter, .faux2-ter2, .faux2-ter3, .faux2-ter4, .vrai5, .faux5, .vrai3, .faux3, .vrai4, .faux4, .video-richesse, .video-sangaris, .video-bozize, .centrafrique, .question5" ).hide( "slow" );
+		$( ".end, .temoignage, .question1, .question2, .question2-bis, .question2-ter, .question3, .vrai1, .faux1, .vrai2-ter, .vrai2-ter2, .vrai2-ter3, .vrai2-ter4, .faux2-ter, .faux2-ter2, .faux2-ter3, .faux2-ter4, .vrai5, .faux5, .vrai3, .faux3, .vrai4, .faux4, .video-richesse, .video-sangaris, .video-bozize, .centrafrique, .question5" ).hide( "slow" );
 		$( ".question4" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 

@@ -31,12 +31,12 @@ $('document').ready(function() {
 
 	$(".suivant-video5").click(function() {
 		$( ".video-richesse" ).hide( "slow" );
-		$( ".question1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question1, #q1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".suivant5").click(function() {
 		$( ".faux5, .vrai5" ).hide( "slow" );
-		$( ".question1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question1, #q1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".reponse-bongo, .reponse-patasse").click(function() {
@@ -56,12 +56,12 @@ $('document').ready(function() {
 
 	$(".suivant-video1").click(function() {
 		$( ".video-bozize" ).hide( "slow" );
-		$( ".question2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question2, #q2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".suivant1").click(function() {
 		$( ".vrai1, .faux1" ).hide( "slow" );
-		$( ".question2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question2, #q2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	/*Question2*/
@@ -165,7 +165,7 @@ $('document').ready(function() {
 
 	$(".suivant-end").click(function() {
 		$( ".centrafrique" ).hide( "slow" );
-		$( ".end, .pagination").slideUp( 300 ).delay( 800 ).fadeIn( 400 );																																																																																					;
+		$( ".end").slideUp( 300 ).delay( 800 ).fadeIn( 400 );																																																																																					;
 	});
 
 

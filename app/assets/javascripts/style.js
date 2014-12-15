@@ -247,8 +247,8 @@ $('document').ready(function() {
 
 
 	$("#q1").click(function() {
-		$( ".end, .question2, .question2-bis, .question2-ter, .question3, .question4, .question5, .suivant1, .suivant-video1" ).hide( "slow" );
-		$( ".question1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".end, .question1, .question2, .question2-bis, .question2-ter, .question3, .question4, .suivant1, .suivant-video1" ).hide( "slow" );
+		$( ".question5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$("#q2").click(function() {

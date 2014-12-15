@@ -31,12 +31,12 @@ $('document').ready(function() {
 
 	$(".suivant-video5").click(function() {
 		$( ".video-richesse, #q2, #q3, #q4, #q5, #q6, #q7" ).hide( "slow" );
-		$( ".question1, .repeat" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question1, .repeat, #q1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".suivant5").click(function() {
 		$( ".faux5, .vrai5, #q2, #q3, #q4, #q5, #q6, #q7" ).hide( "slow" );
-		$( ".question1, .repeat" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question1, .repeat, #q1" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".reponse-bongo, .reponse-patasse").click(function() {
@@ -56,12 +56,12 @@ $('document').ready(function() {
 
 	$(".suivant-video1").click(function() {
 		$( ".video-bozize, #q3, #q4, #q5, #q6, #q7" ).hide( "slow" );
-		$( ".question2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question2, #q2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".suivant1").click(function() {
 		$( ".vrai1, .faux1, #q3, #q4, #q5, #q6, #q7" ).hide( "slow" );
-		$( ".question2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question2, #q2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	/*Question2*/
@@ -78,7 +78,7 @@ $('document').ready(function() {
 
 	$(".suivant2").click(function() {
 		$( ".vrai2, .faux2, #q4, #q5, #q6, #q7" ).hide( "slow" );
-		$( ".question2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question2-ter, #q3" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 
@@ -106,7 +106,7 @@ $('document').ready(function() {
 
 	$(".suivant2-bis").click(function() {
 		$( ".vrai2-bis, .faux2-bis, #q6, #q7" ).hide( "slow" );
-		$( ".question3" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question3, #q5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	/*Question3*/
@@ -128,12 +128,12 @@ $('document').ready(function() {
 
 	$(".suivant-temoignage").click(function() {
 		$( ".temoignage, #q7" ).hide( "slow" );
-		$( ".question4" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question4, #q6" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".suivant3").click(function() {
 		$( ".vrai3, .faux3, #q7" ).hide( "slow" );
-		$( ".question4" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question4, #q6" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	/*Question4*/
@@ -150,7 +150,7 @@ $('document').ready(function() {
 
 	$(".suivant4").click(function() {
 		$( ".vrai4, .faux4" ).hide( "slow" );
-		$( ".centrafrique" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".centrafrique, #q7" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".video4").click(function() {
@@ -160,7 +160,7 @@ $('document').ready(function() {
 
 	$(".suivant-video4").click(function() {
 		$( ".video-sangaris" ).hide( "slow" );
-		$( ".centrafrique" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".centrafrique, #q7" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".suivant-end").click(function() {
@@ -199,7 +199,7 @@ $('document').ready(function() {
 
 	$("#next4").click(function() {
 		$( ".faux2-ter4, #q5, #q6, #q7" ).hide( "slow" );
-		$( ".question2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question2-bis, #q4" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$("#preview4").click(function() {
@@ -234,7 +234,7 @@ $('document').ready(function() {
 
 	$("#next4-vrai").click(function() {
 		$( ".vrai2-ter4, #q5, #q6, #q7" ).hide( "slow" );
-		$( ".question2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".question2-bis, #q4" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$("#preview4-vrai").click(function() {

@@ -401,10 +401,8 @@ body {
 	color: white;
 }
 
-li {
-	font-size: 30px;
-	background-color: rgb(30,201,0);
-	color: white;
-
+#q1, #q2, #q3, #q4, #q5, #q6,#q7 {
+	background-color: transparent;
+	border: solid blue 5px;
+	font-size: 1Opx;
 }
-

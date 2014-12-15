@@ -380,7 +380,8 @@ body {
 .centrafrique {
 	display: none;
 	margin-top: 100px;
-	background-color: rgba(250,215,0,0.5);
+	background-color: transparent;
+	border: solid blue 10px;
 	color: white;
 }
 
@@ -410,4 +411,8 @@ body {
 
 .pager {
 	font-size: 20px;
+}
+
+li {
+	font-size: 40px;
 }

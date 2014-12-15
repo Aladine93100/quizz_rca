@@ -30,13 +30,13 @@ $('document').ready(function() {
 	});
 
 	$(".suivant-video5").click(function() {
-		$( ".video-richesse" ).hide( "slow" );
-		$( ".question1, #q1, .repeat" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".video-richesse, #q2, #q3, #q4, #q5, #q6, #q7" ).hide( "slow" );
+		$( ".question1, .repeat" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".suivant5").click(function() {
-		$( ".faux5, .vrai5" ).hide( "slow" );
-		$( ".question1, #q1, .repeat" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".faux5, .vrai5, #q2, #q3, #q4, #q5, #q6, #q7" ).hide( "slow" );
+		$( ".question1, .repeat" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".reponse-bongo, .reponse-patasse").click(function() {
@@ -55,13 +55,13 @@ $('document').ready(function() {
 	});
 
 	$(".suivant-video1").click(function() {
-		$( ".video-bozize" ).hide( "slow" );
-		$( ".question2, #q2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".video-bozize, #q3, #q4, #q5, #q6, #q7" ).hide( "slow" );
+		$( ".question2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".suivant1").click(function() {
-		$( ".vrai1, .faux1" ).hide( "slow" );
-		$( ".question2, #q2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+		$( ".vrai1, .faux1, #q3, #q4, #q5, #q6, #q7" ).hide( "slow" );
+		$( ".question2" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	/*Question2*/
@@ -77,7 +77,7 @@ $('document').ready(function() {
 	});
 
 	$(".suivant2").click(function() {
-		$( ".vrai2, .faux2" ).hide( "slow" );
+		$( ".vrai2, .faux2, #q4, #q5, #q6, #q7" ).hide( "slow" );
 		$( ".question2-ter" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
@@ -105,7 +105,7 @@ $('document').ready(function() {
 	});
 
 	$(".suivant2-bis").click(function() {
-		$( ".vrai2-bis, .faux2-bis" ).hide( "slow" );
+		$( ".vrai2-bis, .faux2-bis, #q6, #q7" ).hide( "slow" );
 		$( ".question3" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
@@ -127,12 +127,12 @@ $('document').ready(function() {
 	});
 
 	$(".suivant-temoignage").click(function() {
-		$( ".temoignage" ).hide( "slow" );
+		$( ".temoignage, #q7" ).hide( "slow" );
 		$( ".question4" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
 	$(".suivant3").click(function() {
-		$( ".vrai3, .faux3" ).hide( "slow" );
+		$( ".vrai3, .faux3, #q7" ).hide( "slow" );
 		$( ".question4" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
@@ -198,7 +198,7 @@ $('document').ready(function() {
 	});
 
 	$("#next4").click(function() {
-		$( ".faux2-ter4" ).hide( "slow" );
+		$( ".faux2-ter4, #q5, #q6, #q7" ).hide( "slow" );
 		$( ".question2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 
@@ -233,7 +233,7 @@ $('document').ready(function() {
 	});
 
 	$("#next4-vrai").click(function() {
-		$( ".vrai2-ter4" ).hide( "slow" );
+		$( ".vrai2-ter4, #q5, #q6, #q7" ).hide( "slow" );
 		$( ".question2-bis" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 

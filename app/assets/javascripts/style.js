@@ -247,7 +247,7 @@ $('document').ready(function() {
 
 
 	$("#q1").click(function() {
-		$( ".end, .question1, .question2, .question2-bis, .question2-ter, .question3, .question4" ).hide( "slow" );
+		$( ".end, .question1, .question2, .question2-bis, .question2-ter, .question3, .question4, .vrai1, .faux1" ).hide( "slow" );
 		$( ".question5" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
 	});
 

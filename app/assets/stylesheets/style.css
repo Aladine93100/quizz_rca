@@ -153,7 +153,11 @@ body {
 
 #afrique {
 	color: #FFD700;
-}							
+}
+									
+.image-home {
+	margin-top: 150px;
+}
 
 .end {
 	display: none;

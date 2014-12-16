@@ -132,6 +132,7 @@ body {
 .page-header {
 	font-family: 'Poiret One', cursive;
 	color: white;
+	padding-top: 0px;
 }
 
 .logo {

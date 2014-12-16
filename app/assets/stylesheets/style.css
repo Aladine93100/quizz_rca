@@ -156,7 +156,7 @@ body {
 }
 									
 .image-home {
-	margin-top: 100px;
+	margin-top: 150px;
 	background: url(home-quizz-black.png) no-repeat center fixed;
 	padding-bottom: 975px;
 	padding-left: 500px;
@@ -206,7 +206,7 @@ body {
 
 .question1, .question2, .question2-bis, .question2-ter, .question3, .question4, .question5, .question6 {
 	display: none;
-	margin-top: 200px;
+	margin-top: 250px;
 	background-color: rgba(250,215,0,0.5);
 	border: solid white;
 	color: white;

@@ -187,7 +187,7 @@ body {
 	background-color: transparent;
 	border: solid blue 10px;
 	color: white;
-	box-shadow: 30px;
+	box-shadow: 1px 1px 12px blue;
 }
 
 .wrong {

@@ -165,7 +165,7 @@ body {
 
 .end {
 	display: none;
-	margin-top: 100px;
+	margin-top: 200px;
 	margin-left: 100px; 
 	margin-right: 100px; 
 	background-color: transparent;
@@ -392,7 +392,7 @@ body {
 
 .centrafrique {
 	display: none;
-	margin-top: 100px;
+	margin-top: 200px;
 	background-color: transparent;
 	border: solid blue 10px;
 	color: white;
@@ -411,7 +411,7 @@ body {
 
 .repeat {
 	display: none;
-	margin-top: 200px;
+	margin-top: 100px;
 	text-align: center;	
 	color: white;
 }

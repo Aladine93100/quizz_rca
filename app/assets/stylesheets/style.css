@@ -190,7 +190,7 @@ body {
 	display: none;
 	font-size: 20px;
 	font-family: 'Hammersmith One', sans-serif;
-	margin-top: 150px;
+	margin-top: 500px;
 	background-color: transparent;
 	border: solid blue 5px;
 	color: white;
@@ -206,7 +206,7 @@ body {
 
 .question1, .question2, .question2-bis, .question2-ter, .question3, .question4, .question5, .question6 {
 	display: none;
-	margin-top: 250px;
+	margin-top: 500px;
 	background-color: rgba(250,215,0,0.5);
 	border: solid white;
 	color: white;

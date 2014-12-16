@@ -183,9 +183,11 @@ body {
 	display: none;
 	font-size: 20px;
 	font-family: 'Hammersmith One', sans-serif;
-	margin-top: 250px;
-	background-color: rgba(250,215,0,0.5);
+	margin-top: 150px;
+	background-color: transparent;
+	border: solid blue 10px;
 	color: white;
+	box-shadow: 30px;
 }
 
 .wrong {

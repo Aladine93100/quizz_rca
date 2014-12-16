@@ -156,6 +156,7 @@ body {
 }
 									
 .image-home {
+	margin-top: 100px;
 	background: url(home-quizz-black.png) no-repeat center fixed;
 	padding-bottom: 975px;
 	padding-left: 500px;

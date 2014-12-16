@@ -191,7 +191,7 @@ body {
 	display: none;
 	font-size: 20px;
 	font-family: 'Hammersmith One', sans-serif;
-	margin-top: 500px;
+	margin-top: 400px;
 	background-color: transparent;
 	border: solid blue 5px;
 	color: white;
@@ -199,10 +199,14 @@ body {
 
 .wrong {
 	color: red;
+	background-color: white;
+	border-radius: 10px;
 }
 
 .wright {
 	color: green;
+	background-color: white;
+	border-radius: 10px;
 }
 
 .question1, .question2, .question2-bis, .question2-ter, .question3, .question4, .question5, .question6 {

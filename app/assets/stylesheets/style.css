@@ -156,10 +156,18 @@ body {
 #afrique {
 	color: #FFD700;
 }
+
+.titre-intro {
+	font-family: 'Poiret One', cursive;
+}
+
+#sept {
+	color: green;
+}
 									
 .image-home {
 	margin-top: 150px;
-	background: url(home-quizz.png) no-repeat center fixed;
+	background: url(home-quizz2.png) no-repeat center fixed;
 	padding-bottom: 975px;
 	padding-left: 500px;
 }

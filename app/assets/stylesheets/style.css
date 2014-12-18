@@ -162,6 +162,8 @@ body {
 	background: url(home-quizz-black-nolayer.png) no-repeat center fixed;
 	padding-bottom: 975px;
 	padding-left: 500px;
+	width: 50%;
+	height: auto;
 }
 
 .end {

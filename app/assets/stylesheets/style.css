@@ -158,11 +158,10 @@ body {
 }
 									
 .image-home {
-	margin-top: 250px;
+	margin-top: 150px;
 	background: url(home-quizz-black-nolayer.png) no-repeat center fixed;
 	padding-bottom: 975px;
 	padding-left: 500px;
-	padding-top: 400px;
 }
 
 .end {
